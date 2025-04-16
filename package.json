@@ -1,0 +1,11 @@
+{
+  "name": "node-red-cloud",
+  "version": "4.0.9",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "node-red": "^3.0.2"
+  }
+}
