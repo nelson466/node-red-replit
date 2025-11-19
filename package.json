@@ -1,1 +1,24 @@
-
+{
+  "name": "node-red-app",
+  "version": "4.0.9",
+  "description": "Node-RED instance on Render.com",
+  "main": "node_modules/node-red/red.js",
+  "scripts": {
+    "_comentario": "Usar: node node_modules/node-red/red.js -p $PORT como valor de start en caso que settings.js este en la raiz (main) del repositorio", 
+    "start": "node node_modules/node-red/red.js --userDir ./ --settings ./.node-red/settings.js -p $PORT"
+  },
+  "dependencies": {
+    "node-red": "^4.0.9",
+    "node-red-dashboard": "^3.6.5",
+    "node-red-contrib-xlsx-out": "^0.0.1",
+    "node-red-contrib-google-sheets": "^1.1.2",
+    "node-red-contrib-web-worldmap": "^5.1.4",
+    "node-red-contrib-ui-artless-gauge2": "^0.3.13",
+    "express-session": "^1.18.1",
+    "node-fetch": "^3.3.2",
+    "cookie": "^1.0.2",
+    "node-red-contrib-crypto-js": "^0.1.1",
+    "node-red-contrib-jwt": "^0.1.0",
+    "node-red-contrib-uibuilder": "^7.4.2"
+  }
+}
