@@ -1,0 +1,2290 @@
+[
+    {
+        "id": "30bfffe14836de0f",
+        "type": "tab",
+        "label": "Flujo 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "3c32cf9f885b3815",
+        "type": "tab",
+        "label": "Flujo 2",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "13b7d650bf779565",
+        "type": "ui_tab",
+        "name": "Tab 1",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "6fc5ca55e78a0a84",
+        "type": "ui_group",
+        "name": "Group 1",
+        "tab": "13b7d650bf779565",
+        "order": 1,
+        "disp": false,
+        "width": 16,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "2860c9df3bc14fd2",
+        "type": "ui_group",
+        "name": "Group 2",
+        "tab": "13b7d650bf779565",
+        "order": 2,
+        "disp": false,
+        "width": 16,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "d649c9bfc5a38812",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "9792cacabb6ea8a4",
+        "type": "gauth",
+        "name": "Unknown"
+    },
+    {
+        "id": "f9217116a51feb2e",
+        "type": "gauth",
+        "name": "Unknown"
+    },
+    {
+        "id": "7c54979535cd1fda",
+        "type": "gauth",
+        "name": "node-red-sheets@ninth-optics-458601-r5.iam.gserviceaccount.com"
+    },
+    {
+        "id": "11ddd173db60c776",
+        "type": "ui_tab",
+        "name": "Tab 2",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "484a932f282fa153",
+        "type": "ui_group",
+        "name": "Group 1",
+        "tab": "11ddd173db60c776",
+        "order": 1,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "4e36b7698ef13de3",
+        "type": "gauth",
+        "name": "node-red-sheets@ninth-optics-458601-r5.iam.gserviceaccount.com"
+    },
+    {
+        "id": "b900e633683dd4fc",
+        "type": "ui_group",
+        "name": "Group 3",
+        "tab": "13b7d650bf779565",
+        "order": 3,
+        "disp": false,
+        "width": 16,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "018df3d766f47f3d",
+        "type": "ui_spacer",
+        "z": "30bfffe14836de0f",
+        "name": "spacer",
+        "group": "6fc5ca55e78a0a84",
+        "order": 1,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "3c32f887e48508eb",
+        "type": "ui_spacer",
+        "z": "30bfffe14836de0f",
+        "name": "spacer",
+        "group": "6fc5ca55e78a0a84",
+        "order": 3,
+        "width": 11,
+        "height": 1
+    },
+    {
+        "id": "b1452ee9c3c54375",
+        "type": "ui_spacer",
+        "z": "30bfffe14836de0f",
+        "name": "spacer",
+        "group": "6fc5ca55e78a0a84",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "4a6da7df944077bd",
+        "type": "ui_spacer",
+        "z": "30bfffe14836de0f",
+        "name": "spacer",
+        "group": "6fc5ca55e78a0a84",
+        "order": 5,
+        "width": 11,
+        "height": 1
+    },
+    {
+        "id": "9fbbd6a2bf2c39f9",
+        "type": "ui_spacer",
+        "z": "30bfffe14836de0f",
+        "name": "spacer",
+        "group": "2860c9df3bc14fd2",
+        "order": 1,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "bbe18de9b8f007df",
+        "type": "ui_spacer",
+        "z": "30bfffe14836de0f",
+        "name": "spacer",
+        "group": "2860c9df3bc14fd2",
+        "order": 3,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "f7a77b5d81816b63",
+        "type": "ui_spacer",
+        "z": "30bfffe14836de0f",
+        "name": "spacer",
+        "group": "2860c9df3bc14fd2",
+        "order": 5,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "28a3bf159dbe3f1e",
+        "type": "ui_spacer",
+        "z": "30bfffe14836de0f",
+        "name": "spacer",
+        "group": "2860c9df3bc14fd2",
+        "order": 6,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "661247eb33c7d778",
+        "type": "ui_spacer",
+        "z": "30bfffe14836de0f",
+        "name": "spacer",
+        "group": "2860c9df3bc14fd2",
+        "order": 7,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "7de85f48d52f4259",
+        "type": "ui_spacer",
+        "z": "30bfffe14836de0f",
+        "name": "spacer",
+        "group": "2860c9df3bc14fd2",
+        "order": 8,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "44db5ed3ba3e8426",
+        "type": "ui_spacer",
+        "z": "30bfffe14836de0f",
+        "name": "spacer",
+        "group": "2860c9df3bc14fd2",
+        "order": 9,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "7844150b290b3805",
+        "type": "ui_spacer",
+        "z": "30bfffe14836de0f",
+        "name": "spacer",
+        "group": "2860c9df3bc14fd2",
+        "order": 10,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "9a1215125a387c67",
+        "type": "ui_spacer",
+        "z": "30bfffe14836de0f",
+        "name": "spacer",
+        "group": "2860c9df3bc14fd2",
+        "order": 11,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "bfcf358c98f143c9",
+        "type": "ui_spacer",
+        "z": "30bfffe14836de0f",
+        "name": "spacer",
+        "group": "2860c9df3bc14fd2",
+        "order": 12,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "d6ab8764fc64b054",
+        "type": "ui_spacer",
+        "z": "30bfffe14836de0f",
+        "name": "spacer",
+        "group": "2860c9df3bc14fd2",
+        "order": 13,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "3a427733fd389c23",
+        "type": "ui_spacer",
+        "z": "30bfffe14836de0f",
+        "name": "spacer",
+        "group": "2860c9df3bc14fd2",
+        "order": 14,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "9ecc5bd99720696f",
+        "type": "ui_spacer",
+        "z": "30bfffe14836de0f",
+        "name": "spacer",
+        "group": "b900e633683dd4fc",
+        "order": 1,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "3947d6238f635a42",
+        "type": "ui_spacer",
+        "z": "30bfffe14836de0f",
+        "name": "spacer",
+        "group": "b900e633683dd4fc",
+        "order": 3,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "903f9d997179a66c",
+        "type": "ui_spacer",
+        "z": "30bfffe14836de0f",
+        "name": "spacer",
+        "group": "b900e633683dd4fc",
+        "order": 5,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "295f885dda7b64d6",
+        "type": "ui_spacer",
+        "z": "30bfffe14836de0f",
+        "name": "spacer",
+        "group": "b900e633683dd4fc",
+        "order": 6,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "4df9aa42d03959ad",
+        "type": "ui_spacer",
+        "z": "30bfffe14836de0f",
+        "name": "spacer",
+        "group": "b900e633683dd4fc",
+        "order": 7,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "1e65ab3b8668f12b",
+        "type": "ui_spacer",
+        "z": "30bfffe14836de0f",
+        "name": "spacer",
+        "group": "b900e633683dd4fc",
+        "order": 8,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "0499dcd88c118bdc",
+        "type": "ui_spacer",
+        "z": "30bfffe14836de0f",
+        "name": "spacer",
+        "group": "b900e633683dd4fc",
+        "order": 9,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "16e0e586040ccc99",
+        "type": "ui_spacer",
+        "z": "30bfffe14836de0f",
+        "name": "spacer",
+        "group": "b900e633683dd4fc",
+        "order": 10,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "b23e461aaf034db6",
+        "type": "ui_spacer",
+        "z": "30bfffe14836de0f",
+        "name": "spacer",
+        "group": "b900e633683dd4fc",
+        "order": 11,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "348dcc6ae66219a9",
+        "type": "ui_spacer",
+        "z": "30bfffe14836de0f",
+        "name": "spacer",
+        "group": "b900e633683dd4fc",
+        "order": 12,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "b66acd8af5feca31",
+        "type": "ui_spacer",
+        "z": "30bfffe14836de0f",
+        "name": "spacer",
+        "group": "b900e633683dd4fc",
+        "order": 13,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "722cd0e8cbaa9247",
+        "type": "ui_spacer",
+        "z": "30bfffe14836de0f",
+        "name": "spacer",
+        "group": "b900e633683dd4fc",
+        "order": 14,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "4c31a10315ce7dfd",
+        "type": "global-config",
+        "env": [],
+        "modules": {
+            "node-red-dashboard": "3.6.6",
+            "node-red-contrib-google-sheets": "1.1.2",
+            "node-red-contrib-xlsx-out": "0.0.1",
+            "node-red-contrib-ui-artless-gauge2": "0.3.13",
+            "node-red-contrib-crypto-js": "0.1.1",
+            "node-red-contrib-jwt": "0.1.0",
+            "node-red-contrib-uibuilder": "7.4.3"
+        }
+    },
+    {
+        "id": "74a8d5bdab068bb6",
+        "type": "inject",
+        "z": "30bfffe14836de0f",
+        "name": "DESCARGAR",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 120,
+        "y": 80,
+        "wires": [
+            [
+                "334f6101f1411a55"
+            ]
+        ]
+    },
+    {
+        "id": "da67b0e70f777c1a",
+        "type": "ui_template",
+        "z": "30bfffe14836de0f",
+        "group": "6fc5ca55e78a0a84",
+        "name": "Menu_dato1",
+        "order": 2,
+        "width": 4,
+        "height": 2,
+        "format": "<!-- Node-RED Dashboard Template Node: Menú Desplegable -->\n<style>\n  .menu-container {\n    position: relative;\n    text-align: center;\n    margin-top: 20px;\n    display: inline-block;\n  }\n  .menu-button {\n    padding: 8px 12px;\n    font-size: 14px;\n    border: 1px solid #ccc;\n    border-radius: 4px;\n    background-color: #f9f9f9;\n    cursor: pointer;\n  }\n  .menu-list {\n    list-style: none;\n    padding: 0;\n    margin: 4px 0 0;\n    border: 1px solid #ccc;\n    border-radius: 4px;\n    background-color: #f9f9f9;\n    position: absolute;\n    width: 100%;\n    box-shadow: 0 2px 6px rgba(0,0,0,0.1);\n    z-index: 1000;\n  }\n  .menu-item {\n    padding: 8px 12px;\n    cursor: pointer;\n  }\n  .menu-item:hover {\n    background-color: #e6e6e6;\n  }\n  .menu-item a {\n    text-decoration: none;\n    color: inherit;\n    display: block;\n    width: 100%;\n  }\n</style>\n\n<div class=\"menu-container\" ng-init=\"visible=false\">\n  <!-- Botón para mostrar/ocultar -->\n  <button class=\"menu-button\" ng-click=\"visible = !visible\">Menu</button>\n\n  <!-- Opciones desplegables -->\n  <ul class=\"menu-list\" ng-show=\"visible\">\n    <li class=\"menu-item\">\n      <a href=\"/download\" target=\"_blank\">Descargar Reporte</a>\n    </li>\n    <li class=\"menu-item\">\n      <a href=\"/logout\">Cerrar Sesión</a>\n    </li>\n  </ul>\n</div>\n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 550,
+        "y": 1100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "33e4d5e26b0ea206",
+        "type": "function",
+        "z": "30bfffe14836de0f",
+        "name": "function 7",
+        "func": "// Guarda el archivo Excel en la variable de contexto \nflow.set(\"archivoExcel\", msg.payload); \nmsg.payload = \" \";\nreturn null; ",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 740,
+        "y": 560,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6a33ce06083b440a",
+        "type": "function",
+        "z": "30bfffe14836de0f",
+        "name": "function 8",
+        "func": "var dataArray = msg.payload; // Ej: [ [\"Encabezado1\", \"Encabezado2\"], [\"Dato1\", \"Dato2\"], ... ] \nvar headers = dataArray[0]; \nvar dataObjects = []; \n// Recorrer el array empezando desde la segunda fila \nfor (var i = 1; i < dataArray.length; i++) {     \n          var row = dataArray[i];     \n          var obj = {};     \n          for (var j = 0; j < headers.length; j++){         \n            obj[headers[j]] = row[j]; \n          }     \n          dataObjects.push(obj); \n} \nmsg.payload = dataObjects; \nreturn msg; ",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 420,
+        "y": 560,
+        "wires": [
+            [
+                "3ec5b3220afae997"
+            ]
+        ]
+    },
+    {
+        "id": "3ec5b3220afae997",
+        "type": "xlsx-out",
+        "z": "30bfffe14836de0f",
+        "name": "",
+        "sheetName": "",
+        "x": 580,
+        "y": 560,
+        "wires": [
+            [
+                "33e4d5e26b0ea206"
+            ]
+        ]
+    },
+    {
+        "id": "23bd4b6af81b7207",
+        "type": "http in",
+        "z": "30bfffe14836de0f",
+        "name": "DOWNLOAD XLSX",
+        "url": "/download",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 110,
+        "y": 320,
+        "wires": [
+            [
+                "b4aa11862d755621"
+            ]
+        ]
+    },
+    {
+        "id": "b4aa11862d755621",
+        "type": "function",
+        "z": "30bfffe14836de0f",
+        "name": "function 10",
+        "func": "// Recupera el archivo Excel almacenado en la variable de contexto \nvar archivo = flow.get(\"archivoExcel\"); \nflow.set(\"archivoExcel\", null);  \n// Verificar si el archivo existe \nif (!archivo) { \n    // Si no se encontró, se devuelve un error     \n    msg.statusCode = 404;     \n    msg.payload = \"El archivo Excel no está disponible o no se ha generado.\";     \n    return msg; \n}  \n// Establecer las cabeceras HTTP para que el navegador lo trate como un archivo descargable en formato Excel \nmsg.headers = { \n    \"Content-Type\": \"application/vnd.openxmlformatsofficedocument.spreadsheetml.sheet\", \n    \"Content-Disposition\": 'attachment; filename=\"reporte.xlsx\"' \n};  \n// Colocar en msg.payload el contenido binario del archivo Excel \nmsg.payload = archivo; \nreturn msg; ",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 310,
+        "y": 320,
+        "wires": [
+            [
+                "776dbb7d54fc8326"
+            ]
+        ]
+    },
+    {
+        "id": "776dbb7d54fc8326",
+        "type": "http response",
+        "z": "30bfffe14836de0f",
+        "name": "download",
+        "statusCode": "",
+        "headers": {},
+        "x": 480,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "e24b42ecf91cc75f",
+        "type": "inject",
+        "z": "30bfffe14836de0f",
+        "name": "escribir",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "[$moment().format('YYYY-MM-DD'), $round($random()*100, 2), $round($random()*100, 2), $round($random()*100, 2), $round($random()*100, 2)]",
+        "payloadType": "jsonata",
+        "x": 90,
+        "y": 980,
+        "wires": [
+            [
+                "e7534f9ecc49c258"
+            ]
+        ]
+    },
+    {
+        "id": "e7534f9ecc49c258",
+        "type": "GSheet",
+        "z": "30bfffe14836de0f",
+        "creds": "7c54979535cd1fda",
+        "method": "append",
+        "action": "",
+        "sheet": "1CGfI2dkxgYdfw37UlectzlLVmVtBW0EQ8MUh9ni5R6Q",
+        "cells": "hoja1!A5",
+        "flatten": false,
+        "name": "GSheet-ESCRIBIR",
+        "x": 270,
+        "y": 980,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "62540a5099c8d36b",
+        "type": "inject",
+        "z": "30bfffe14836de0f",
+        "name": "dato1",
+        "props": [
+            {
+                "p": "topic",
+                "v": "$round($random()*100, 2)",
+                "vt": "jsonata"
+            }
+        ],
+        "repeat": "3",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 90,
+        "y": 1100,
+        "wires": [
+            [
+                "f6733eada21bfe70"
+            ]
+        ]
+    },
+    {
+        "id": "dcced9fbf933b75b",
+        "type": "inject",
+        "z": "30bfffe14836de0f",
+        "name": "dato2",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "3",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "$round($random()*100, 2)",
+        "payloadType": "jsonata",
+        "x": 90,
+        "y": 1160,
+        "wires": [
+            [
+                "fd4552a50750bcbe"
+            ]
+        ]
+    },
+    {
+        "id": "c32e681a76cf3d45",
+        "type": "inject",
+        "z": "30bfffe14836de0f",
+        "name": "dato3",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "3",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "$round($random()*100, 2)",
+        "payloadType": "jsonata",
+        "x": 90,
+        "y": 1220,
+        "wires": [
+            [
+                "92bf6e3362acc412"
+            ]
+        ]
+    },
+    {
+        "id": "e9087cd828bc8483",
+        "type": "inject",
+        "z": "30bfffe14836de0f",
+        "name": "dato4",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "3",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "$round($random()*100, 2)",
+        "payloadType": "jsonata",
+        "x": 90,
+        "y": 1280,
+        "wires": [
+            [
+                "26a335dff747a918"
+            ]
+        ]
+    },
+    {
+        "id": "f6733eada21bfe70",
+        "type": "function",
+        "z": "30bfffe14836de0f",
+        "name": "function 1",
+        "func": "// guardar el valor en contexto de flujo\nflow.set('datoTemp', msg.topic);\nmsg.payload = msg.topic;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 240,
+        "y": 1100,
+        "wires": [
+            [
+                "63db2af75a40515c"
+            ]
+        ]
+    },
+    {
+        "id": "fd4552a50750bcbe",
+        "type": "function",
+        "z": "30bfffe14836de0f",
+        "name": "function 9",
+        "func": "// guardar el valor en contexto de flujo\nflow.set('datoluz', msg.payload);\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 240,
+        "y": 1160,
+        "wires": [
+            [
+                "9dfe85bee29d5596"
+            ]
+        ]
+    },
+    {
+        "id": "92bf6e3362acc412",
+        "type": "function",
+        "z": "30bfffe14836de0f",
+        "name": "function 11",
+        "func": "// guardar el valor en contexto de flujo\nflow.set('datohum_suelo', msg.payload);\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 250,
+        "y": 1220,
+        "wires": [
+            [
+                "e5e524232045f503"
+            ]
+        ]
+    },
+    {
+        "id": "26a335dff747a918",
+        "type": "function",
+        "z": "30bfffe14836de0f",
+        "name": "function 12",
+        "func": "// guardar el valor en contexto de flujo\nflow.set('datohum_ambiente', msg.payload);\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 250,
+        "y": 1280,
+        "wires": [
+            [
+                "e7a45bd7690a2d8b"
+            ]
+        ]
+    },
+    {
+        "id": "e5e524232045f503",
+        "type": "ui_gauge",
+        "z": "30bfffe14836de0f",
+        "name": "dato3",
+        "group": "b900e633683dd4fc",
+        "order": 2,
+        "width": 4,
+        "height": 4,
+        "gtype": "gage",
+        "title": "HUM_SUELO",
+        "label": "units",
+        "format": "{{value}}",
+        "min": "0",
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 410,
+        "y": 1220,
+        "wires": []
+    },
+    {
+        "id": "e7a45bd7690a2d8b",
+        "type": "ui_gauge",
+        "z": "30bfffe14836de0f",
+        "name": "dato4",
+        "group": "b900e633683dd4fc",
+        "order": 4,
+        "width": 4,
+        "height": 4,
+        "gtype": "gage",
+        "title": "HUM_AMBIENTE",
+        "label": "units",
+        "format": "{{value}}",
+        "min": "0",
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 410,
+        "y": 1280,
+        "wires": []
+    },
+    {
+        "id": "5c190e65348f47a9",
+        "type": "function",
+        "z": "30bfffe14836de0f",
+        "name": "function 2",
+        "func": "// Obtener últimos valores\nconst fecha = new Date().toLocaleDateString('en-CA', { timeZone: 'America/La_Paz'}); // YYYY-MM-DD\nconst t  = flow.get('temp')        || 0;\nconst l  = flow.get('luz')         || 0;\nconst hs = flow.get('hum_suelo')   || 0;\nconst ha = flow.get('hum_ambiente')|| 0;\n// Montar el array para Google Sheets\nmsg.payload = [ fecha, t, l, hs, ha ];\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 260,
+        "y": 2320,
+        "wires": [
+            [
+                "c3f645121877dab0"
+            ]
+        ]
+    },
+    {
+        "id": "c3f645121877dab0",
+        "type": "GSheet",
+        "z": "30bfffe14836de0f",
+        "creds": "7c54979535cd1fda",
+        "method": "append",
+        "action": "",
+        "sheet": "1CGfI2dkxgYdfw37UlectzlLVmVtBW0EQ8MUh9ni5R6Q",
+        "cells": "hoja1!A5",
+        "flatten": false,
+        "name": "GSheet-TRIGGER",
+        "x": 450,
+        "y": 2320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "049ff4136c046af2",
+        "type": "inject",
+        "z": "30bfffe14836de0f",
+        "name": "TRIGGER",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 100,
+        "y": 2320,
+        "wires": [
+            [
+                "5c190e65348f47a9"
+            ]
+        ]
+    },
+    {
+        "id": "9dfe85bee29d5596",
+        "type": "ui_artlessgauge2",
+        "z": "30bfffe14836de0f",
+        "group": "2860c9df3bc14fd2",
+        "order": 4,
+        "width": 4,
+        "height": 4,
+        "name": "dato2",
+        "icon": "thermometer",
+        "label": "LUZ",
+        "unit": "LUX",
+        "layout": "radial",
+        "decimals": "2",
+        "differential": false,
+        "minmax": false,
+        "colorTrack": "#555555",
+        "style": "2,2",
+        "colorFromTheme": true,
+        "property": "payload",
+        "secondary": "secondary",
+        "inline": true,
+        "animate": true,
+        "log2": false,
+        "sectors": [
+            {
+                "val": 0,
+                "col": "#00ccff",
+                "t": "min",
+                "dot": 0
+            },
+            {
+                "val": 5,
+                "col": "#ff6666",
+                "t": "sec",
+                "dot": 0
+            },
+            {
+                "val": 100,
+                "col": "#ff6666",
+                "t": "max",
+                "dot": 0
+            }
+        ],
+        "lineWidth": "7",
+        "bgcolorFromTheme": true,
+        "diffCenter": "",
+        "x": 390,
+        "y": 1160,
+        "wires": []
+    },
+    {
+        "id": "63db2af75a40515c",
+        "type": "ui_template",
+        "z": "30bfffe14836de0f",
+        "group": "2860c9df3bc14fd2",
+        "name": "dato1",
+        "order": 2,
+        "width": 4,
+        "height": 4,
+        "format": "<div class=\"custom-gauge\">\n  <!-- Fila superior: etiqueta + icono -->\n  <div class=\"label-icon\">\n    <span class=\"label\">TEMPERATURA</span>\n    <i class=\"fa fa-thermometer-half icon\"></i>\n  </div>\n  <!-- Valores centrados -->\n  <div class=\"value-unit\">\n    <span class=\"value\">{{msg.payload | number:2}}</span>\n    <span class=\"unit\">°C</span>\n  </div>\n</div>\n\n<style>\n/* Contenedor principal */\n.custom-gauge {\n  width: 192px;\n  height: 192px;\n  background: #ffffff;\n  border-radius: 12px;\n  box-shadow: 0 2px 6px rgba(0,0,0,0.2);\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n  padding: 12px;\n  box-sizing: border-box;\n  font-family: \"Roboto\", sans-serif;\n}\n\n/* Fila de etiqueta + icono */\n.label-icon {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  margin-bottom: 30px; /* más separación verticalmente */\n}\n.label {\n  font-size: 18px;       /* un poco más grande */\n  font-weight: 600;\n  color: #333333;\n}\n.icon {\n  font-size: 45px;       /* más grande verticalmente */\n  color: #e53935;\n  line-height: 1;\n}\n\n/* Fila del valor y unidad */\n.value-unit {\n  display: flex;\n  justify-content: center;\n  align-items: baseline;\n  flex-grow: 1;\n}\n.value {\n  font-size: 48px;\n  font-weight: 600;\n  color: #212121;\n  line-height: 1;\n}\n.unit {\n  font-size: 48px;       /* igual al valor numérico */\n  font-weight: 600;\n  color: #757575;\n  margin-left: 4px;\n}\n</style>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 390,
+        "y": 1100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8411e4c891ed177d",
+        "type": "GSheet",
+        "z": "30bfffe14836de0f",
+        "creds": "4e36b7698ef13de3",
+        "method": "get",
+        "action": "",
+        "sheet": "1CGfI2dkxgYdfw37UlectzlLVmVtBW0EQ8MUh9ni5R6Q",
+        "cells": "hoja1!A1:Z1000",
+        "flatten": false,
+        "name": "GSH-LEER",
+        "x": 250,
+        "y": 560,
+        "wires": [
+            [
+                "6a33ce06083b440a"
+            ]
+        ]
+    },
+    {
+        "id": "ffe2b43397f510b2",
+        "type": "http in",
+        "z": "30bfffe14836de0f",
+        "name": "LOGIN",
+        "url": "/validador",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 70,
+        "y": 680,
+        "wires": [
+            [
+                "bfaaceadabca0c6e"
+            ]
+        ]
+    },
+    {
+        "id": "bfaaceadabca0c6e",
+        "type": "function",
+        "z": "30bfffe14836de0f",
+        "name": "Decodificar y extraer",
+        "func": "// msg.req.query.token viene de GET /validador?token=...\nvar token = msg.req.query.token;\n\n// 1) Si falta el token: 401\nif (!token) {\n    msg.statusCode = 401;\n    msg.payload    = \"Token faltante\";\n    return msg;\n}\n\n// 2) Decodifica Base64 a UTF-8: \"usuario|timestamp|firma\"\ntry {\n    msg.decoded = Buffer.from(token, \"base64\").toString(\"utf8\");\n} catch (e) {\n    msg.statusCode = 400;\n    msg.payload    = \"Token inválido (Base64)\";\n    return msg;\n}\n\n// 3) Separa en 3: usuario | timestamp | firma\nvar parts = msg.decoded.split(\"|\");\nif (parts.length !== 3) {\n    msg.statusCode = 400;\n    msg.payload    = \"Formato de token incorrecto\";\n    return msg;\n}\n\nmsg.username  = parts[0];   // p.ej. 'juan'\nmsg.ts_string = parts[1];   // p.ej. '1623000000'\n//msg.sig       = parts[2];   // hex HMAC-SHA256\nflow.set(\"sig\", parts[2]); \nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 260,
+        "y": 680,
+        "wires": [
+            [
+                "e91048a4cbeebc79"
+            ]
+        ]
+    },
+    {
+        "id": "e91048a4cbeebc79",
+        "type": "function",
+        "z": "30bfffe14836de0f",
+        "name": "Prepara para HMAC",
+        "func": "// Reconstruye el payload que firmó el PHP:\nmsg.payload = msg.username+\"|\"+msg.ts_string;\n\n// Define tu secreto compartido (16–24 carácteres):\n// Línea en tu Function que define el secreto:\n// Debe coincidir carácter por carácter con el string de PHP,\n// pero en JS las barras invertidas se escapan con otra barra invertida.\n//msg.secret = \"7uhI2B1mQJf)KoH(3q3AmInMvn9z;+1=\";\n\n// Dejamos msg.sig para comparar luego:\n// msg.sig = firma que vino en el token\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 680,
+        "wires": [
+            [
+                "8beceab8f9990f77"
+            ]
+        ]
+    },
+    {
+        "id": "8beceab8f9990f77",
+        "type": "hmac",
+        "z": "30bfffe14836de0f",
+        "name": "HMAC-SHA256",
+        "algorithm": "HmacSHA256",
+        "key": "7uhI2B1mQJf)KoH(3q3AmInMvn9z;+1=",
+        "x": 140,
+        "y": 740,
+        "wires": [
+            [
+                "17f1e3d441219857"
+            ]
+        ]
+    },
+    {
+        "id": "17f1e3d441219857",
+        "type": "function",
+        "z": "30bfffe14836de0f",
+        "name": "Compara firma y expiración",
+        "func": "// 1) Compara la firma calculada con la del token\nvar sign = flow.get(\"sig\"); \nif (sign !== msg.payload) {\n    msg.statusCode = 401;\n    msg.payload = \"Firma inválida\";\n    return msg;\n}\n\n// 2) Comprueba expiración (1 hora = 3600 s)\nvar ts = parseInt(msg.ts_string, 10);\nvar now = Math.floor(Date.now() / 1000);\nif (now - ts > 3600) {\n    msg.statusCode = 401;\n    msg.payload = \"Token expirado\";\n    return msg;\n}\n\n// 3) Si todo OK, preparamos la cookie y redirect:\nmsg.headers = {\n  // Quitamos HttpOnly para que el script en <head> pueda leerla\n  \"Set-Cookie\": \"auth=1; Path=/; SameSite=Lax\"\n};\n// Redirige al dashboard completo (incl. #! y socketid)\nmsg.statusCode = 302;\n//msg.headers[\"Location\"] = \"https://node-red-bh0b.onrender.com/ui/#!/0?socketid=NKUKX8V5cUyfuiTHAAAB\";\nmsg.headers[\"Location\"] = \"https://node-red-bh0b.onrender.com/ui1\";\nmsg.payload = \"\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 380,
+        "y": 740,
+        "wires": [
+            [
+                "d79410c172c2b443"
+            ]
+        ]
+    },
+    {
+        "id": "d79410c172c2b443",
+        "type": "http response",
+        "z": "30bfffe14836de0f",
+        "name": "SERVIR DASHBOARD",
+        "statusCode": "",
+        "headers": {},
+        "x": 650,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "afb33c17fa01f1e9",
+        "type": "http in",
+        "z": "30bfffe14836de0f",
+        "name": "LOGOUT",
+        "url": "/logout",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 80,
+        "y": 860,
+        "wires": [
+            [
+                "405b522e5126e381"
+            ]
+        ]
+    },
+    {
+        "id": "405b522e5126e381",
+        "type": "function",
+        "z": "30bfffe14836de0f",
+        "name": "function 6",
+        "func": "// 1) Preparamos la cookie para borrarla: \n//    - Asignamos valor vacío y expiración pasada.\n//    - Path=/ para que afecte a toda la ruta.\nmsg.headers = {\n  // Igual, sin HttpOnly\n  \"Set-Cookie\": \"auth=; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT; SameSite=Lax\"\n};\n\n// 2) Redirigimos al usuario de vuelta al login PHP en InfinityFree\nmsg.statusCode = 302;\nmsg.headers[\"Location\"] = \"https://datagauge.kesug.com/cerrar_sesion.php\";\n\n// 3) Vacíamos el cuerpo de la respuesta (solo interesan cabeceras)\nmsg.payload = \"\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 240,
+        "y": 860,
+        "wires": [
+            [
+                "ecaabebbdae859c8"
+            ]
+        ]
+    },
+    {
+        "id": "ecaabebbdae859c8",
+        "type": "http response",
+        "z": "30bfffe14836de0f",
+        "name": "logout",
+        "statusCode": "",
+        "headers": {},
+        "x": 390,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "0c12eb0275573479",
+        "type": "comment",
+        "z": "30bfffe14836de0f",
+        "name": "DESCARGA DESDE EL MENU EL ARCHIVO \"mediciones.xlsx\" DE GOOGLE DRIVE",
+        "info": "",
+        "x": 310,
+        "y": 20,
+        "wires": []
+    },
+    {
+        "id": "4d12960a1b3e2233",
+        "type": "comment",
+        "z": "30bfffe14836de0f",
+        "name": "FLUJO PARA ACCEDER AL DASHBOARD CUANDO EL USUARIO INICIA SESION",
+        "info": "",
+        "x": 310,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "3316df79b95001db",
+        "type": "comment",
+        "z": "30bfffe14836de0f",
+        "name": "FLUJO QUE CIERRA SESION DESDE EL MENU",
+        "info": "",
+        "x": 200,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "95c2123b4aacbcdc",
+        "type": "comment",
+        "z": "30bfffe14836de0f",
+        "name": "OPCION C PARA ESCRIBIR DATOS MANUALMENTE EN EL ARCHIVO \"mediciones.xlsx\" USANDO EL NODO \"GSheet\"",
+        "info": "",
+        "x": 430,
+        "y": 920,
+        "wires": []
+    },
+    {
+        "id": "bd7067cbb5cc9c60",
+        "type": "comment",
+        "z": "30bfffe14836de0f",
+        "name": "SIMULA DATOS DE SENSORES  Y LOS MUESTRA EN WIDGETS DEL DASHBOARD",
+        "info": "",
+        "x": 320,
+        "y": 1040,
+        "wires": []
+    },
+    {
+        "id": "87141044b16e21ee",
+        "type": "comment",
+        "z": "30bfffe14836de0f",
+        "name": "CADA CIERTO TIEMPO ALMACENA DATOS EN EL ARCHIVO \"mediciones.xlsx\"",
+        "info": "",
+        "x": 300,
+        "y": 2020,
+        "wires": []
+    },
+    {
+        "id": "334f6101f1411a55",
+        "type": "function",
+        "z": "30bfffe14836de0f",
+        "name": "function 3",
+        "func": "// 1. Hora actual \nconst now = Math.floor(Date.now()/1000);\n\n// 2. Claim estándar para Google OAuth2 JWT\n// OPCION B, BLOQUE DE CODIGO (claim) PARA DESCARGAR \n// EL ARCHIVO EXCEL DE GOOGLE SHEETS\n/*const claim = {\n  iss: \"node-red-sheets@ninth-optics-458601-r5.iam.gserviceaccount.com\", // client_email\n  scope: \"https://www.googleapis.com/auth/spreadsheets\",     // lectura y escritura\n  aud: \"https://oauth2.googleapis.com/token\",                          // endpoint token\n  iat: now,                                                            // issued at                                                             // expiration\n};*/\nconst claim = {\n  iss: \"node-red-sheets@ninth-optics-458601-r5.iam.gserviceaccount.com\",\n  // Tu client_email de la cuenta de servicio\n  scope: [\n    \"https://www.googleapis.com/auth/spreadsheets\",      // Sheets API: read & write\n    \"https://www.googleapis.com/auth/drive.readonly\"     // Drive API: export .xlsx\n  ].join(\" \"),                                           // Ambos scopes separados por espacio\n  aud: \"https://oauth2.googleapis.com/token\",            // Endpoint de token de Google\n  iat: now,                                              // “Issued At”: cuándo se generó                                               // “Expiration”: hasta cuándo es válido\n};\nmsg.payload = claim;       // lo mandamos al nodo JWT sign\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 300,
+        "y": 80,
+        "wires": [
+            [
+                "3d841198350871ef"
+            ]
+        ]
+    },
+    {
+        "id": "1c9eb34a5a727347",
+        "type": "http request",
+        "z": "30bfffe14836de0f",
+        "name": "",
+        "method": "POST",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "https://oauth2.googleapis.com/token ",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [
+            {
+                "keyType": "Content-Type",
+                "keyValue": "",
+                "valueType": "other",
+                "valueValue": "application/x-www-form-urlencoded"
+            }
+        ],
+        "x": 270,
+        "y": 140,
+        "wires": [
+            [
+                "448b17e2dd670179"
+            ]
+        ]
+    },
+    {
+        "id": "c239f2ccb962c8ce",
+        "type": "function",
+        "z": "30bfffe14836de0f",
+        "name": "function 4",
+        "func": "// Function: “Build Token Request Body”\nmsg.payload =\n  \"grant_type=urn:ietf:params:oauth:grant-type:jwt-bearer\" +\n  \"&assertion=\" + encodeURIComponent(msg.token);\n// Como estamos en POST, msg.payload es el cuerpo\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 100,
+        "y": 140,
+        "wires": [
+            [
+                "1c9eb34a5a727347"
+            ]
+        ]
+    },
+    {
+        "id": "448b17e2dd670179",
+        "type": "function",
+        "z": "30bfffe14836de0f",
+        "name": "function 5",
+        "func": "// 1. Obtener el JSON con el access_token del nodo anterior\nconst tokenResponse = msg.payload;  \n//    tokenResponse debe tener { access_token, expires_in, token_type }\nconst accessToken = tokenResponse.access_token;  // extraemos sólo el token\n\n// 2. Preparar los headers para la llamada a Drive\nmsg.headers = {\n  Authorization: `Bearer ${accessToken}`         // formato: \"Bearer <tu_token>\"\n};\n\n// 3. Definir el ID de tu Spreadsheet\nconst spreadsheetId = \"1CGfI2dkxgYdfw37UlectzlLVmVtBW0EQ8MUh9ni5R6Q\";\n// OPCION B BLOQUE DE CODIGO PARA DESCARGAR EL \n// ARCHIVO EXCEL DE GOOGLE SHEETS\n// const range = \"hoja1!A1:Z2000\";  \n// msg.url =\n// `https://sheets.googleapis.com/v4/spreadsheets/` +  // endpoint base\n// `${spreadsheetId}/values/${encodeURIComponent(range)}`;  \n\n// 4. Montar la URL de exportación de Drive\n//    Este endpoint exporta el archivo .xlsx completo, con todos los estilos intactos.\nmsg.url =\n  `https://www.googleapis.com/drive/v3/files/` +\n  `${spreadsheetId}/export` +\n  `?mimeType=` +\n  `application/vnd.openxmlformats-officedocument.spreadsheetml.sheet`;\n\n// 5. Devolver el mensaje para que el nodo HTTP Request descargue el buffer binario\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 140,
+        "wires": [
+            [
+                "47ebe0f4c96e1290"
+            ]
+        ]
+    },
+    {
+        "id": "47ebe0f4c96e1290",
+        "type": "http request",
+        "z": "30bfffe14836de0f",
+        "name": "solicitud",
+        "method": "GET",
+        "ret": "bin",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 100,
+        "y": 200,
+        "wires": [
+            [
+                "5ec76fd76af01919"
+            ]
+        ]
+    },
+    {
+        "id": "3b093067f75c5ef7",
+        "type": "function",
+        "z": "30bfffe14836de0f",
+        "name": "function 13",
+        "func": "// OPCION B PARA DESCARGAR EL ARCHIVO EXCEL DE\n// GOOGLE SHEETS\n// SI OPTAMOS POR ESTA OPCION DEBEMOS CONECTAR ESTE \n// NODO (function 13) DESPUES DEL NODO http request (solicitud)\n// Y CONECTAR EL NODO xlsx - out ANTES DEL NODO function (function 14)\n// ES DECIR A SU ENTRADA\n// 1) Extraemos de msg.payload la matriz de valores (array de arrays)\n//    que devolvió la API de Google Sheets. Si no existe, usamos [].\nconst allValues = msg.payload.values || [];\n\n// 2) Si no hay al menos 2 filas (una de encabezados y otra de datos),  \n//    devolvemos un array vacío y paramos aquí.\nif (allValues.length < 2) {\n    msg.payload = [];\n    return msg;\n}\n\n// 3) La fila 0 de allValues es el array de encabezados (nombres de columnas)\nconst headers = allValues[0];\n\n// 4) A partir de la fila 1 empiezan los datos reales\nconst rows = allValues.slice(1);\n\n// 5) Convertimos cada fila en un objeto:\n//    - Map devuelve un nuevo array con el mismo número de filas.\n//    - Por cada fila, creamos un objeto vacío.\n//    - Recorremos cada encabezado (headers) para asignar:\n//        obj[ headers[i] ] = row[i] (o '' si no existe valor).\nconst objects = rows.map(row => {\n    const obj = {};                          // Objeto para esta fila\n    headers.forEach((colName, idx) => {\n        // Cada columna recibe su valor; si falta, ponemos cadena vacía\n        obj[colName] = row[idx] !== undefined ? row[idx] : '';\n    });\n    return obj;                              // Devolvemos el objeto construido\n});\n\n// 6) Finalmente, msg.payload debe ser el array de objetos\nmsg.payload = objects;\n\n// 7) Y retornamos el mensaje para que lo procese XLSX-Out\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 90,
+        "y": 440,
+        "wires": [
+            [
+                "f10e5b18be1c2dc6"
+            ]
+        ]
+    },
+    {
+        "id": "f10e5b18be1c2dc6",
+        "type": "xlsx-out",
+        "z": "30bfffe14836de0f",
+        "name": "xlsx - out",
+        "sheetName": "",
+        "x": 260,
+        "y": 440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5ec76fd76af01919",
+        "type": "function",
+        "z": "30bfffe14836de0f",
+        "name": "function 14",
+        "func": "// 1. Guardamos el Buffer (.xlsx) en la variable de contexto \"archivoExcel\"\nflow.set(\"archivoExcel\", msg.payload);  \n\n// 2. Limpiamos msg.payload para no propagar datos binarios\nmsg.payload = \"\";                       \n\n// 3. Retornamos null: no enviamos mensaje hacia abajo\nreturn null;                            ",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 270,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6a3955b6f32809d1",
+        "type": "inject",
+        "z": "30bfffe14836de0f",
+        "name": "trigger descarga jwt sign",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 150,
+        "y": 260,
+        "wires": [
+            [
+                "67e195b021851d15"
+            ]
+        ]
+    },
+    {
+        "id": "67e195b021851d15",
+        "type": "template",
+        "z": "30bfffe14836de0f",
+        "name": "template descarga",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "text",
+        "syntax": "plain",
+        "template": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCQpXIz5f7jOI0F\n9+xpUidIG+Ebjg1I/KKdmhETaBFvuAH+GwJBsLtIU9wVJYG05PCKR0a9H3Zwe6m9\narY+qXGJbgqegJZRdEMdfl9hKKrp+LPn8YxrXEs3AsYouHWnq9EBjQnujtcsqLY8\n9op9B2Y0qppyfc8QwijqZ4h54bUMFembm90o+MI0mquxpAMWLhmgPs6P8RPEN1ky\nrPNX//bnKcwU+g2didH6LyEmleIwoIzpdroeKwASm080jZ/8tOqjUh8hq2SdGrBq\nhB7oWwskHZUwlEfPwoWM00sNhaX1Mugkc2d2zj5npY/22DKyrYX2GV/xyWeD4lTC\n4VRur92pAgMBAAECggEAA7d8m8DJL+WAGisos/wcbknpGuAnjzyOoSYYUjtWV1yP\nEIx5Hl8AMPeWrCRulMtdMvBp7OomDPXggrF/RVTtSe697xy2wBkQsG1S3hhBbAmr\n9cXLKecRN7Smit1SiKBtmnCZVLvu44LiS+a54ESUZ74Kge6hp3iVvJA0fY1DLbBI\njKsfa8sktOnd57fpwColfODoHlIDtdFbY671cUo7/Gbu4f+2M6YIBtucX7ldVifr\nuaOF7CdTOv4o+lL6K+sOxGzEa8WViMb5qPhkgcf0NXsGfAWukqTG0vxnOMzl9Dso\nTfv1IyDFN5B1hNs20t/tvATNwfO8N3z/M90z5oEOAQKBgQDLrkRo5RfL8RD0iB3z\nB9LJOWZ1jAKA/3GgaeiUN9F20m0dVdVtpkn2qsL6g33KgdQbE+OnLWFk1Zlzw/8w\nPLT+7gY47hXRFaab0lyH/XB2Zecjvdabq6WuGCXrPKWVuNn+BF7GYcf5dPMEj1gR\nxOLoMd7+SMnJk0rjUM056NMLkQKBgQC1zSnVuNj7HqmD18Pc90P0uwDv74qKR/Rc\nMtLLU08keASLVijZ1I29YRycGMvr+WacKZpwBn0VG/WzO6kd0+Eb0ym35+DHdvU6\n6VMlfC0quD+R0i789zbECI6ihXSfkerFd5qKHT9gQrVrlZpTFOXjGF1hPcAMHp7w\nZxJQr6y0mQKBgFi+AtxZBHc8/xArxjC/Nd2qfrO0XtrpcQ5dVpJNh5vnrtbbMPRn\nQU6RtAYGCGaVDl8F2WhbY1XVothHiwXvTUTNXDSttx+z+TVnAB3YFInheEWgTsLg\nlH031D2b3OFQ+tmr+cchj0lm5QMVmV+UkvBr2iacfB6xaC2GZQRYJquhAoGBAK/k\nirhDunLjzKBJri9ocDAkiZiaitCVI1/csEOWG7kuAT+KIcX3NxdmEJcaCpoJV3R5\nb/k43eYBgith6pJ4P5B7Mh7DUp/JgSP5QL/Ar7ZoQuDjmSCYUj1CBjZJpncIZzuc\nJ0G/YGTSxdIMER6W1oBsP1RouRlAuwfewUKdZRvpAoGACL0nGDrllmUCCYR8xAyO\nuNRfd0hLCefQwU/+FIGYY4ovtFBOHiAtrcF01G0Jwi5rOmlZwpexjI7quhn22lcI\nj8atgncu9n5ScMGpP2oLSD19Zt0Ax75lF1HR9f7/YkRZ0COnAOdvxbMxTcDCMIvf\nM5yN5NHDKZ0L1TdUsPkJGk0=\n-----END PRIVATE KEY-----",
+        "output": "str",
+        "x": 390,
+        "y": 260,
+        "wires": [
+            [
+                "8d9133b29d9b154f"
+            ]
+        ]
+    },
+    {
+        "id": "8d9133b29d9b154f",
+        "type": "file",
+        "z": "30bfffe14836de0f",
+        "name": "file para descarga",
+        "filename": "service-account.pem",
+        "filenameType": "str",
+        "appendNewline": false,
+        "createDir": true,
+        "overwriteFile": "true",
+        "encoding": "utf8",
+        "x": 610,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3d841198350871ef",
+        "type": "jwt sign",
+        "z": "30bfffe14836de0f",
+        "name": "",
+        "alg": "RS256",
+        "exp": "3600",
+        "jwkurl": "",
+        "jwkkid": "",
+        "secret": "",
+        "key": "service-account.pem",
+        "signvar": "payload",
+        "storetoken": "token",
+        "x": 460,
+        "y": 80,
+        "wires": [
+            [
+                "c239f2ccb962c8ce"
+            ]
+        ]
+    },
+    {
+        "id": "bd5004c3bf8fc6e9",
+        "type": "inject",
+        "z": "30bfffe14836de0f",
+        "name": "trigger",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 90,
+        "y": 560,
+        "wires": [
+            [
+                "8411e4c891ed177d"
+            ]
+        ]
+    },
+    {
+        "id": "8d2799f628675dd6",
+        "type": "comment",
+        "z": "30bfffe14836de0f",
+        "name": "OPCION C PARA DESCARGA DEL ARCHIVO \"mediciones.xlsx\" DE GOOGLE SHEETS USANDO EL NODO \"GSheet\"  ",
+        "info": "",
+        "x": 420,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "54267ffc1afa3fc4",
+        "type": "inject",
+        "z": "30bfffe14836de0f",
+        "name": "ESCRIBIR",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 100,
+        "y": 2080,
+        "wires": [
+            [
+                "131dd4a4861bc86e"
+            ]
+        ]
+    },
+    {
+        "id": "131dd4a4861bc86e",
+        "type": "function",
+        "z": "30bfffe14836de0f",
+        "name": "function 15",
+        "func": "// 1. Hora actual \nconst now = Math.floor(Date.now()/1000);\n\n// 2. Claim estándar para Google OAuth2 JWT\nconst claim = {\n  iss: \"node-red-sheets@ninth-optics-458601-r5.iam.gserviceaccount.com\", // client_email\n  scope: \"https://www.googleapis.com/auth/spreadsheets\",     // lectura y escritura\n  aud: \"https://oauth2.googleapis.com/token\",                          // endpoint token\n  iat: now,                                                            // issued at                                                             // expiration\n};\n\nmsg.payload = claim;       // lo mandamos al nodo JWT sign\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 270,
+        "y": 2080,
+        "wires": [
+            [
+                "fae89dcfd90cd41d"
+            ]
+        ]
+    },
+    {
+        "id": "fae89dcfd90cd41d",
+        "type": "jwt sign",
+        "z": "30bfffe14836de0f",
+        "name": "JWT sign write",
+        "alg": "RS256",
+        "exp": "3600",
+        "jwkurl": "",
+        "jwkkid": "",
+        "secret": "",
+        "key": "service-account.pem",
+        "signvar": "payload",
+        "storetoken": "token",
+        "x": 460,
+        "y": 2080,
+        "wires": [
+            [
+                "bfa58f8c67cad6f7"
+            ]
+        ]
+    },
+    {
+        "id": "bfa58f8c67cad6f7",
+        "type": "function",
+        "z": "30bfffe14836de0f",
+        "name": "function 16",
+        "func": "// Function: “Build Token Request Body”\nmsg.payload =\n  \"grant_type=urn:ietf:params:oauth:grant-type:jwt-bearer\" +\n  \"&assertion=\" + encodeURIComponent(msg.token);\n// Como estamos en POST, msg.payload es el cuerpo\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 130,
+        "y": 2140,
+        "wires": [
+            [
+                "1a33a2f04ca1cd08"
+            ]
+        ]
+    },
+    {
+        "id": "1a33a2f04ca1cd08",
+        "type": "http request",
+        "z": "30bfffe14836de0f",
+        "name": "solicitud http write",
+        "method": "POST",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "https://oauth2.googleapis.com/token ",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [
+            {
+                "keyType": "Content-Type",
+                "keyValue": "",
+                "valueType": "other",
+                "valueValue": "application/x-www-form-urlencoded"
+            }
+        ],
+        "x": 330,
+        "y": 2140,
+        "wires": [
+            [
+                "50ceda244267ba10"
+            ]
+        ]
+    },
+    {
+        "id": "50ceda244267ba10",
+        "type": "function",
+        "z": "30bfffe14836de0f",
+        "name": "function 17",
+        "func": "// --- Contador dinámico con reinicio por cambio de initial o de límite ---\n\n// 1) Valores configurables manualmente\nconst newInitial = 5;     // ← valor de partida fila desde donde empieza escribir\nconst maxValue   = 10;  // ← tope donde reinicia\nvar startRow;\n\n// 1.1) Recuperar estados previos\nconst lastInitial    = flow.get('last_initial');\nconst lastMax        = flow.get('last_max');\nconst currentCounter = flow.get('counter');\n\n// 1.2) Determinar si hay que reiniciar por primera vez,\n//    o porque cambió newInitial, o porque cambió maxValue\nconst initialChanged = (lastInitial === undefined) || (newInitial !== lastInitial);\nconst maxChanged     = (lastMax === undefined) || (maxValue   !== lastMax);\n\nif (initialChanged || maxChanged) {\n    // Reinicio total\n    flow.set('counter', newInitial);\n    flow.set('last_initial', newInitial);\n    flow.set('last_max', maxValue);\n    startRow = newInitial;\n} else {\n    // Incremento normal\n    let nextValue = currentCounter + 1;\n\n    // Cuando se alcanza el tope actual, reiniciar a newInitial\n    if (nextValue > maxValue) {\n        nextValue = newInitial;\n    }\n\n    // Guardar y preparar salida\n    flow.set('counter', nextValue);\n    startRow = nextValue;\n}\n\n// 2) OBTENER LOS DATOS A ESCRIBIR DESDE flow.context\nconst fecha = new Date().toLocaleDateString('en-CA', { timeZone: 'America/La_Paz' }); // YYYY-MM-DD       || '';  // Fecha o cadena vacía si no existe\nconst t = flow.get('temp')          || '';  // Temperatura\nconst l = flow.get('luz')           || '';  // Intensidad de luz\nconst hs = flow.get('hum_suelo')    || '';  // Humedad de suelo\nconst ha = flow.get('hum_ambiente') || '';  // Humedad ambiente\n// Si tienes más datos, continúa así:\n// const dato6 = flow.get('otroDato') || '';\n\n// 3) MONTAR EL ARRAY newValues CON TODOS LOS DATOS\nconst newValues = [fecha, t, l, hs, ha];\n\n// 4) DATOS FIJOS DE CONFIGURACIÓN\nconst spreadsheetId = \"1CGfI2dkxgYdfw37UlectzlLVmVtBW0EQ8MUh9ni5R6Q\";\nconst sheetName = \"hoja1\";\n\n// 5) FUNCIÓN AUXILIAR: CONVERTIR ÍNDICE DE COLUMNA A LETRA EXCEL\nfunction columnLetter(colIndex) {\n    let letter = \"\";\n    while (colIndex > 0) {\n        const mod = (colIndex - 1) % 26;\n        letter = String.fromCharCode(65 + mod) + letter;\n        colIndex = Math.floor((colIndex - 1) / 26);\n    }\n    return letter;\n}\n\n// 6) CALCULAR EL RANGO DE ESCRITURA EN BASE A startRow Y newValues.length\nconst firstCell = \"A\" + startRow;\nconst lastCol = columnLetter(newValues.length);\nconst lastCell = lastCol + startRow;\nconst range = `${sheetName}!${firstCell}:${lastCell}`;\n\n// 7) EXTRAER EL access_token DE msg.payload (resultado del nodo anterior)\nconst tokenResponse = msg.payload;\nconst accessToken = tokenResponse.access_token;\n\n// 8) PREPARAR ENCABEZADOS Y MÉTODO PARA EL HTTP REQUEST\nmsg.headers = {\n    Authorization: `Bearer ${accessToken}`,\n    \"Content-Type\": \"application/json\"\n};                                                // Usamos PUT para actualizar rangos\n\n// 9) MONTAR EL CUERPO DE LA PETICIÓN CON EL FORMATO DE LA API\nmsg.payload = {\n    range: range,\n    majorDimension: \"ROWS\",\n    values: [newValues]\n};\n\n// 10) CONSTRUIR LA URL CON valueInputOption=RAW\nmsg.url =\n    `https://sheets.googleapis.com/v4/spreadsheets/` +\n    `${spreadsheetId}/values/${encodeURIComponent(range)}` +\n    `?valueInputOption=RAW`;\n\n// 11) RETORNAR msg PARA QUE EL NODO HTTP REQUEST LO PROCESO\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 530,
+        "y": 2140,
+        "wires": [
+            [
+                "bcc3a1f786f44836"
+            ]
+        ]
+    },
+    {
+        "id": "bcc3a1f786f44836",
+        "type": "http request",
+        "z": "30bfffe14836de0f",
+        "name": "solicitud write",
+        "method": "PUT",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 140,
+        "y": 2200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "48b9c5ea50de1801",
+        "type": "comment",
+        "z": "30bfffe14836de0f",
+        "name": "OPCION B PARA DESCARGAR EL ARCHIVO \"mediciones.xlsx\" DE GOOGLE SHEETS",
+        "info": "",
+        "x": 320,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "aa300c2b9f18f717",
+        "type": "comment",
+        "z": "30bfffe14836de0f",
+        "name": "VARIACION DE LA OPCION C PARA ESCRIBIR DATOS AUTOMATICAMENTE EN EL ARCHIVO \"mediciones.xlsx\" USANDO EL NODO \"GSheet\"",
+        "info": "",
+        "x": 510,
+        "y": 2260,
+        "wires": []
+    },
+    {
+        "id": "1a768afac092f88c",
+        "type": "inject",
+        "z": "30bfffe14836de0f",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 110,
+        "y": 1880,
+        "wires": [
+            [
+                "80f4069f4ef9d82a",
+                "8cb60e244fa4abed",
+                "4fc5234c0cf83e76"
+            ]
+        ]
+    },
+    {
+        "id": "80f4069f4ef9d82a",
+        "type": "function",
+        "z": "30bfffe14836de0f",
+        "name": "html",
+        "func": "msg.payload = `<!DOCTYPE html> <!-- Declaración del tipo de documento -->\n<html lang=\"es\"> <!-- Etiqueta raíz con idioma español -->\n<head> <!-- Metadatos y enlaces a recursos externos -->\n  <meta charset=\"UTF-8\"> <!-- Codificación de caracteres -->\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <!-- Escalado responsivo -->\n  <title>Dashboard IoT</title> <!-- Título de la pestaña -->\n  <!-- Carga de librería FontAwesome para los íconos -->\n  <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css\">\n  <link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css\">\n  <!-- Enlace al archivo de estilos CSS -->\n  <link rel=\"stylesheet\" href=\"index.css\">\n  <script src=\"index.js\" defer></script>\n  <script src=\"./uibuilder.iife.min.js\"></script>\n</head>\n<body> <!-- Contenido principal de la página -->\n  <!-- Contenedor principal del dashboard -->\n  <div class=\"dashboard\">\n    <!-- GRID: menú superior -->\n    <div class=\"item menu\">\n         <div class=\"menu-container\"> <!-- Contenedor principal del menú: agrupa botón y lista desplegable. -->\n         <details class=\"menu-details\"> <!-- Elemento <details> que permite abrir/cerrar el bloque sin JS. -->\n           <summary class=\"menu-button\" aria-haspopup=\"true\" aria-label=\"Abrir menú\"> <!-- Resumen que actúa como botón visible. -->\n             <i class=\"bi bi-list\" aria-hidden=\"true\"></i> <!-- Icono de menú (Bootstrap Icons) — decorativo. -->\n           </summary> <!-- Cierre del summary (botón) -->\n           <ul class=\"menu-list\" role=\"menu\"> <!-- Lista de opciones, actúa como menú; role para accesibilidad. -->\n             <li class=\"menu-item\" role=\"none\"> <!-- Item 1 del menú; role none porque el enlace tendrá role. -->\n             <a class=\"menu-link\" role=\"menuitem\" href=\"/download\" target=\"_blank\" rel=\"noopener\" onclick=\"(function(d){ if(d) d.open=false; })(this.closest('details'));\">Descargar Reporte</a>\n             </li> <!-- Fin item 1 -->\n             <li class=\"menu-item\" role=\"none\"> <!-- Item 2 del menú. -->\n             <a class=\"menu-link\" role=\"menuitem\" href=\"/logout\" onclick=\"(function(d){ if(d) d.open=false; })(this.closest('details'));\">Cerrar sesión</a>\n             </li> <!-- Fin item 2 -->\n           </ul> <!-- Cierre de la lista -->\n          </details> <!-- Cierre del details -->\n         </div> <!-- Cierre del contenedor principal -->\n    </div>\n\n    <!-- WIDGET: Temperatura -->\n    <div class=\"item temperature\">\n      <h2>Temperature</h2>\n      <i class=\"fa fa-thermometer-half icon\"></i>\n      <p class=\"value\"><span class=\"tem\"></span> &deg;C</p>\n    </div>\n\n    <!-- WIDGET: Luminosidad -->\n    <div class=\"item luminosity\">\n      <h2>Luminosity</h2>\n      <i class=\"bi bi-brightness-high icon\" aria-hidden=\"true\"></i> \n      <p class=\"value\"><span class=\"lum\"></span> lux</p>\n    </div>\n\n    <!-- WIDGET: Humedad de suelo -->\n    <div class=\"item soil\">\n      <h2>Soil Humidity</h2>\n      <i class=\"fa-solid fa-seedling icon\" aria-hidden=\"true\"></i>\n      <p class=\"value\"><span class=\"hums\"></span> %</p>\n    </div>\n\n    <!-- WIDGET: Humedad ambiente -->\n    <div class=\"item ambient\">\n      <h2>Ambient Humidity</h2>\n      <i class=\"fa-solid fa-droplet icon\"></i>\n      <p class=\"value\"><span class=\"huma\"></span> %</p>\n    </div>\n\n    <!-- WIDGET: Switch_Control_Manual_De_Alguna_Variable -->\n    <div class=\"item button\">\n      <div class=\"switch_toggle\">\n        <input class=\"on-of\" type=\"checkbox\" id=\"btn\"> <!-- Checkbox oculto -->\n        <label for=\"btn\"></label> <!-- Control deslizante visual -->\n      </div> <!-- cierre switch toggle -->  \n    </div> <!-- cierre item button -->\n\n    <!-- WIDGET: Switch_Control_Automatico_Temperatura -->\n    <div class=\"item btn_control\">\n      <h2>Control Temperatura</h2>\n      <div class=\"control_toggle\">\n        <input class=\"micheckbox\" type=\"checkbox\" id=\"actv\"> <!-- Checkbox oculto -->\n        <label for=\"actv\"></label> <!-- Control deslizante visual -->\n        <input class=\"captura\" type=\"text\" placeholder=\"20.25\"> <!-- Numero ingresado -->\n      </div> <!-- cierre control_toggle -->\n    </div> <!-- cierre item btn_control -->\n  </div>\n</body>\n</html>`;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 290,
+        "y": 1820,
+        "wires": [
+            [
+                "05b13b9c0d0f7069"
+            ]
+        ]
+    },
+    {
+        "id": "8cb60e244fa4abed",
+        "type": "function",
+        "z": "30bfffe14836de0f",
+        "name": "css",
+        "func": "msg.payload = `/* Estilos globales y reset básico */\n* { margin: 0; padding: 0; box-sizing: border-box; }\nhtml, body { height: 100%; }\nbody {\n  /* Imagen de fondo cargada desde GitHub */\n  /*background: url('https://raw.githubusercontent.com/nelson466/node-red-render/refs/heads/main/fondo.png') no-repeat center center fixed;*/\n  background-size: cover; /* Ajuste completo */\n  display: flex; /* Centrar dashboard */\n  justify-content: center; /* Horizontal */\n  align-items: center; /* Vertical */\n  font-family: Arial, sans-serif; /* Tipografía base */\n}\n\n/* Contenedor principal con dimensiones en viewport */\n.dashboard {\n  width: 80vw; /* 50% del ancho de la ventana */\n  height: auto;*/ /* 100% de la altura de la ventana */\n  background-color: #F0F0F0; /* Verde oscuro #E0E0E0 */\n  border-radius: 10px; /* Bordes redondeados */\n  display: grid; /* Uso de CSS Grid */\n  /*grid-template-columns: repeat(2, 1fr)*/ /* 2 columnas iguales */\n  grid-template-columns: 50% 50%; /* 2 columnas iguales */\n  grid-template-rows: 12% auto auto auto; /* 4 filas automáticas */\n  gap: 5px; /* Separación entre widgets */\n  padding: 20px; /* Espaciado interno */\n  border: 5px solid #CCCCCC;\n  justify-content: center;\n  align-content: center;  \n  position: absolute;\n  top: 5px;\n  grid-template-areas:\"area1 area1\"\n                      \"area3 area4\"\n                      \"area5 area6\"\n                      \"area7 area8\";\n}\n\n/* Área del menú ocupa dos columnas en la primera fila */\n.item.menu {\n  width: 100%;\n  background: rgba(10, 77, 77); /* transparente */\n  grid-area: area1;\n  display: flex; /* Habilita */\n  justify-content: center; /*centra el contenido verticalmente*/\n  align-items: flex-start; /*centra el contenido horizontalmente*/\n  border-radius: 5px;\n} \n\n/* Contenedor general del menú (aplica solo dentro de <div class=\"item menu\">) */\n.item.menu > .menu-container {\n  margin: 0; /* margen por defecto */\n}\n\n/* Reset y estilo del element details para que quede limpio (scopeado) */\n.item.menu > .menu-container .menu-details {\n  position: relative; /* relativo para posicionar el desplegable respecto al botón */\n}\n\n/* Estilo del botón (summary) que se comporta como botón (scopeado) */\n.item.menu > .menu-container .menu-button {\n  list-style: none; /* quita el triángulo por defecto en algunos navegadores */\n  display: inline-flex; /* muestra el contenido en línea y permite centrar icono */\n  align-items: center; /* centra verticalmente el icono si hay texto */\n  justify-content: center; /* centra horizontalmente */\n  width: 44px; /* ancho fijo del botón (ajustable) */\n  height: 44px; /* alto fijo del botón (ajustable) */\n  border-radius: 8px; /* bordes redondeados para estética */\n  background: transparent; /* fondo transparente para integrar con tu tema */\n  /*border: 2px solid rgba(255,165,0,0.12); /* borde sutil acorde al color naranja */\n  color: #FFA500; /* color del icono (naranja) para visibilidad */\n  cursor: pointer; /* cursor de mano para indicar clicable */\n  padding: 6px; /* relleno interior */\n  transition: background 150ms ease, transform 120ms ease; /* transición suave en hover/focus */\n  font-size: 2rem; /* Tamaño de icono */\n}\n\n/* Elimina el marcador por defecto del summary en navegadores (seguridad cross-browser) (scopeado) */\n.item.menu > .menu-container .menu-button::-webkit-details-marker {\n  display: none; /* Safari / Chrome marker hide */\n}\n\n/* Hover y foco visibles para accesibilidad (scopeado) */\n.item.menu > .menu-container .menu-button:hover,\n.item.menu > .menu-container .menu-button:focus {\n  background: rgba(255,165,0,0.06); /* leve fondo en hover/focus */\n  transform: translateY(-1px); /* pequeño levantamiento visual */\n  outline: none; /* removemos el outline nativo (se dejó efecto propio) */\n}\n\n/* Lista del menú (inicialmente cerrada): controlamos su altura y visibilidad para animar (scopeado) */\n.item.menu > .menu-container .menu-list {\n  margin: 8px 0 0 0; /* separacion respecto al boton */\n  padding: 8px; /* padding interno del contenedor del menu */\n  list-style: none; /* quitar bullets */\n  background: rgba(255,255,255,0.98); /* fondo claro para contraste con dashboard oscuro */\n  color: #0A4D4D; /* color del texto oscuro para legibilidad */\n  border-radius: 8px; /* esquinas redondeadas */\n  box-shadow: 0 8px 20px rgba(4,20,20,0.35); /* sombra suave para elevar el menú */\n  overflow: hidden; /* oculta contenido cuando aplicamos max-height para animar */\n  max-height: 0; /* altura 0 cuando está cerrado (animable) */\n  opacity: 0; /* transparente cuando está cerrado */\n  transform: translateY(-8px); /* desplazado ligeramente hacia arriba cuando cerrado */\n  transition: max-height 300ms cubic-bezier(.2,.8,.2,1), opacity 220ms ease, transform 220ms ease; /* transiciones para efecto suave */\n  width: 220px; /* ancho fijo mínimo del menu desplegable */\n  position: absolute; /* posición absoluta respecto a details */\n  top: calc(100% + 6px); /* justo debajo del botón */\n  left: 0; /* empuja el menu desplegable de izquierda a derecha */\n  z-index: 40; /* por encima de otros elementos */\n}\n\n/* Cuando el details está abierto (atributo [open]) simulamos desplegado (scopeado) */\n.item.menu > .menu-container .menu-details[open] .menu-list {\n  max-height: 240px; /* suficiente para mostrar ambos items (ajusta si agregas más) */\n  opacity: 1; /* completamente visible */\n  transform: translateY(0); /* volver a su posición natural */\n}\n\n/* Cada item del menú (scopeado) */\n.item.menu > .menu-container .menu-item {\n  margin: 6px 0; /* margen vertical entre opciones */\n}\n\n/* Estilo del enlace dentro del item (clicable y accesible) (scopeado) */\n.item.menu > .menu-container .menu-link {\n  display: block; /* ocupa todo el ancho para facilitar el clic */\n  width: 100%; /* ancho completo del menú */\n  padding: 8px 10px; /* padding cómodo para dedo/clic */\n  border-radius: 6px; /* esquinas suavizadas en cada opción */\n  text-decoration: none; /* quita subrayado del enlace */\n  color: inherit; /* hereda el color definido en el contenedor */\n  font-weight: 600; /* texto más visible */\n}\n\n/* Efecto hover/focus en cada enlace para feedback visual (scopeado) */\n.item.menu > .menu-container .menu-link:hover,\n.item.menu > .menu-container .menu-link:focus {\n  background: rgba(10,77,77,0.06); /* fondo sutil acorde al color principal */\n  outline: none; /* se usa el efecto visual propio */\n}\n\n.item.temperature {\n   grid-area: area3;\n   box-shadow: -1px -1px 8px rgba(255,255,255,0.7),\n   3px 3px 3px rgba(0,0,0,0.2),\n   inset 1px 1px 3px rgba(255,255,255,0.7),\n   inset 3px 3px 3px rgba(0,0,0,0.2);\n } \n \n .item.luminosity {\n   grid-area: area4;\n   box-shadow: -1px -1px 8px rgba(255,255,255,0.7),\n   3px 3px 3px rgba(0,0,0,0.2),\n   inset 1px 1px 3px rgba(255,255,255,0.7),\n   inset 3px 3px 3px rgba(0,0,0,0.2);\n } \n\n .item.soil {\n   grid-area: area5;\n   box-shadow: -1px -1px 8px rgba(255,255,255,0.7),\n   3px 3px 3px rgba(0,0,0,0.2),\n   inset 1px 1px 3px rgba(255,255,255,0.7),\n   inset 3px 3px 3px rgba(0,0,0,0.2);\n } \n\n .item.ambient {\n   grid-area: area6;\n   box-shadow: -1px -1px 8px rgba(255,255,255,0.7),\n   3px 3px 3px rgba(0,0,0,0.2),\n   inset 1px 1px 3px rgba(255,255,255,0.7),\n   inset 3px 3px 3px rgba(0,0,0,0.2);\n }  \n\n/* color del icono de termometro*/\n.item.temperature .icon {\n  color: #FF4500 !important;\n}\n\n/* color del icono de luminosity*/\n.item.luminosity .icon {\n  color: #FFD700 !important;\n}\n\n/* color del icono de soil humidity*/\n.item.soil .icon {\n  color: #4CAF50 !important;\n}\n/* color del icono de ambient humidity*/\n.item.ambient .icon {\n  color: #00BFFF !important;\n}\n\n/* Estilos comunes a todos los widgets */\n.item {\n  background: rgba(255,255,255); /* Fondo oscuro semitransparente */\n  color: #0A4D4D; /* Texto naranja */\n  border-radius: 10px; /* Bordes redondeados */\n  display: flex; /* Usar flexbox interno */\n  flex-direction: column; /* ***Elementos en columna */\n  justify-content: center; /* Centrar vertical */\n  align-items: center; /* Centrar horizontal */\n  padding: 10px;\n  font-family: Arial; /*tipo de fuente*/\n  font-weight: 400; /*normal (regular)*/\n  /*transform: scaleX(0.80);*/ /* estrecha el texto horizontalmente*/\n  border: 2px solid #CCCCCC;\n}\n.item h2 {\n  margin-bottom: 10px; /* Espacio inferior */\n  font-size: 1.3rem; /* Tamaño de título */\n}\n.item .icon {\n  font-size: 3rem; /* Tamaño de icono */\n  margin-bottom: 10px; /* Separación */\n}\n.item .value {\n  font-size: 2rem; /* Tamaño de valor */\n}\n\n/*estilos para el boton on-of*/\n.item.button {\n   grid-area: area8;\n   background: rgba(0, 0, 0, 0); /* transparente */\n   display: flex;\n   flex-direction: row;\n   padding-left: 0px;\n   padding-top: 0px; \n   justify-content: flex-start;\n   align-items: flex-start;\n   border: none;\n } \n\n/*estilos parte del boton on-of*/\n .switch_toggle {\n  width: 34%;\n  height: 60px;\n  display:flex;\n  flex-direction:row;\n  justify-content: center;\n  align-items: center;\n  border: 2px solid #CCCCCC;\n  border-radius: 10px;\n  box-shadow: -1px -1px 8px rgba(255,255,255,0.7),\n   3px 3px 3px rgba(0,0,0,0.2),\n   inset 1px 1px 3px rgba(255,255,255,0.7),\n   inset 3px 3px 3px rgba(0,0,0,0.2);\n }\n \n /*estilos parte del boton on-of*/\n .switch_toggle input[type=\"checkbox\"]{\n  position: absolute;\n  opacity: 0;\n  z-index: -2;\n }\n\n  .switch_toggle input[type=\"checkbox\"] + label{\n    position: relative;\n    display: inline-block;\n    width: 85%;\n    height: 47px;\n    border-radius: 23px;\n    margin: 0;\n    cursor: pointer;\n    /*box-shadow: inset -8px -8px 15px rgba(255,255,255,0.6),\n    inset 10px 10px 10px rgba(0,0,0,0.25);*/\n    border: 3px solid #CCCCCC;\n }\n\n .switch_toggle input[type=\"checkbox\"] + label::before{\n  position: absolute;\n  content: \"OF\";\n  font-size: 18px;\n  text-align: center; /*centra el texto horizontalmente*/\n  line-height: 40px; /*centra el texto verticalmente*/\n  /*top: 3.5px;*/\n  /*left: 8px;*/\n  width: 45%;\n  height: 40px;\n  border-radius: 20px;\n  background-color: #eee;\n  /*box-shadow: -3px -3px 5px rgba(255,255,255,0.5),\n  3px 3px 5px rgba(0,0,0,0.25);*/\n  border: 2px solid #CCCCCC;\n  transition: 0.3s ease-in-out;\n }\n\n.switch_toggle input[type=\"checkbox\"]:checked + label::before{\n  left: 51%; /* Espacio interno */\n  content: \"ON\";\n  background: #eee;\n  color: #000000; /*texto de color negro puro*/\n  /*box-shadow: -3px -3px 5px rgba(255,255,255,0.5),\n  3px 3px 5px #242422;*/\n  border: 2px solid #CCCCCC;\n}\n\n.switch_toggle input[type=\"checkbox\"]:checked + label{\n  background: #0A4D4D;\n}\n\n/*ESTILOS PARA EL BOTON CONTROL AUTOMATICO DE TEMPERATURA*/\n.item.btn_control {\n   grid-area: area7;\n   background: rgba(0, 0, 0, 0); /* transparente */\n   display: flex;\n   flex-direction: column;\n   /*padding-left: 0px;*/\n   /*padding-top: 0px;*/\n   justify-content: center;\n   align-items: flex-start;\n   /*border: none;*/\n   box-shadow: -1px -1px 8px rgba(255,255,255,0.7),\n   3px 3px 3px rgba(0,0,0,0.2),\n   inset 1px 1px 3px rgba(255,255,255,0.7),\n   inset 3px 3px 3px rgba(0,0,0,0.2);\n}\n\n/*estilos parte del boton control automatico*/\n .control_toggle {\n  width: 40%;\n  height: 60px;\n  display:flex;\n  flex-direction:row;\n  justify-content: center;\n  align-items: center;\n  gap: 5px;\n  border: 2px solid #CCCCCC;\n  border-radius: 10px;\n  box-shadow: -1px -1px 8px rgba(255,255,255,0.7),\n   3px 3px 3px rgba(0,0,0,0.2),\n   inset 1px 1px 3px rgba(255,255,255,0.7),\n   inset 3px 3px 3px rgba(0,0,0,0.2);\n }\n\n /*estilos parte del boton control automatico*/\n .control_toggle input[type=\"checkbox\"]{\n  position: absolute;\n  opacity: 0;\n  z-index: -2;\n }\n\n .control_toggle input[type=\"checkbox\"] + label{\n    position: relative;\n    display: inline-block;\n    width: 40%;\n    height: 50px;\n    border-radius: 30px;\n    margin: 0;\n    cursor: pointer;\n    /*box-shadow: inset -8px -8px 15px rgba(255,255,255,0.6),\n    inset 10px 10px 10px rgba(0,0,0,0.25);*/\n    border: 3px solid #CCCCCC;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n }\n\n .control_toggle input[type=\"checkbox\"] + label::before{\n  position: absolute;\n  content: \"OF\";\n  font-size: 18px;\n  text-align: center;\n  line-height: 45px;\n  /*top: 3.5px;*/\n  /*left: 5px;*/\n  width: 100%;\n  height: 45px;\n  border-radius: 30px;\n  background-color: #eee;\n  /*box-shadow: -3px -3px 5px rgba(255,255,255,0.5),\n  3px 3px 5px rgba(0,0,0,0.25);*/\n  /*transition: 0.2s ease-in-out;*/\n }\n\n.control_toggle input[type=\"checkbox\"]:checked + label::before{\n  /*transform: translateX(1px);*/\n  content: \"ON\";\n  background: #0A4D4D;\n  color: #ffffff; /*texto de color blanco puro*/\n  /*box-shadow: -3px -3px 5px rgba(255,255,255,0.5),\n  3px 3px 5px #242422;*/\n  border: 3px solid #0A4D4D;\n}\n\n.control_toggle input[type=\"checkbox\"]:checked + label{\nborder: none;\n}\n.control_toggle .captura{\n  width: 45%;\n  height: 45px;\n  border-radius: 10px;\n  margin: 0;\n  text-align: center;\n  font-size: 18px;\n  outline: none; /* al posicionar el cursor dentro la caja antes de ingresar el dato, esta propiedad evita que se añada un borde a la caja*/\n  border: 2px solid #CCCCCC;\n}\n/* Estilos aqui solo se aplican si el ancho de la pantalla es 480px o menos */\n@media (max-width: 480px) {\n    .dashboard {\n        width: 100vw; /* Ancho adaptable */\n    }\n    .control_toggle{\n        width: 100%;\n    }\n    .switch_toggle{\n        width: 62%;\n    }\n}\n`;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 290,
+        "y": 1880,
+        "wires": [
+            [
+                "f9c9096259ac117e"
+            ]
+        ]
+    },
+    {
+        "id": "05b13b9c0d0f7069",
+        "type": "uib-save",
+        "z": "30bfffe14836de0f",
+        "url": "ui1",
+        "uibId": "9ba114eae656b5fa",
+        "folder": "src",
+        "fname": "index.html",
+        "createFolder": false,
+        "reload": false,
+        "usePageName": false,
+        "encoding": "utf8",
+        "mode": 438,
+        "name": "index",
+        "topic": "",
+        "x": 430,
+        "y": 1820,
+        "wires": []
+    },
+    {
+        "id": "f9c9096259ac117e",
+        "type": "uib-save",
+        "z": "30bfffe14836de0f",
+        "url": "ui1",
+        "uibId": "9ba114eae656b5fa",
+        "folder": "src",
+        "fname": "index.css",
+        "createFolder": false,
+        "reload": false,
+        "usePageName": false,
+        "encoding": "utf8",
+        "mode": 438,
+        "name": "style",
+        "topic": "",
+        "x": 430,
+        "y": 1880,
+        "wires": []
+    },
+    {
+        "id": "4fc5234c0cf83e76",
+        "type": "function",
+        "z": "30bfffe14836de0f",
+        "name": "js",
+        "func": "msg.payload = `\"use strict\"; // Activa modo estricto para atrapar errores comunes (mejor práctica).\n\n/* ======================================\n   BLOQUE 1 - ON-OF: alterna y envía 0/1\n   ====================================== */\n\n/* Selecciona el primer elemento del documento que tenga la clase \"on-of\".\n   Esperamos que el <input type=\"checkbox\" class=\"on-of\"> exista en el DOM\n   (por ejemplo el script está incluido al final del body). */\nconst input = document.querySelector('.on-of'); \n\n/* Si no existe el input, detenemos el script en este punto para evitar errores.\n   Esto evita llamadas a propiedades de null/undefined. */\nif (!input) {\n  console.warn('No se encontró ningún elemento con la clase .on-of'); // aviso en consola\n} else {\n  /* Inicializamos estadoLocal en false para que el primer cambio establezca 1 lógico.\n     estadoLocal es la réplica en memoria del estado del switch (no persiste al recargar). */\n  var estado = null;\n  const STORAGE_KEY3 = 'autToggle_checked_v3';\n  const STORAGE_KEY4 = 'autToggle_checked_v4';\n  var savedCtlMan = localStorage.getItem(STORAGE_KEY3);\n  var estadoLocal = localStorage.getItem(STORAGE_KEY4);\n  input.checked = (savedCtlMan === '1');\n  estadoLocal = (estadoLocal === '1');\n\nuibuilder.send({\n                topic: 'sverCssCtrlMan',\n                request2: savedCtlMan\n                });\n\n  /* Handler que se ejecuta cuando cambia el input (evento 'change').\n     Usamos 'change' porque ocurre cuando el checked ya cambió (o cuando el usuario lo cambia) */\n  function clickBoton(e) {\n    /* Prevenir comportamiento por defecto si existiera (por seguridad; normalmente change no tiene un \"default\" visible). */\n    if (e && typeof e.preventDefault === 'function') {\n      e.preventDefault();\n    }\n\n    /* Alterna el estado local: false -> true, true -> false */\n    estadoLocal = !estadoLocal;\n\n    if (estadoLocal === true){\n        localStorage.setItem(STORAGE_KEY3, input.checked ? '1' : '0');\n        localStorage.setItem(STORAGE_KEY4, input.checked ? '1' : '0');\n        uibuilder.send({\n                topic: 'sverCssCtrlMan',\n                estadoCss2: {inptChe2: input.checked ? '1' : '0'}\n                });\n        /* Convierte el booleano estadoLocal en número lógico: 1 si true, 0 si false */\n        estado = estadoLocal ? 1 : 0;\n        // Enviar al servidor (Node-RED). Uso explícito de topic + payload\n        uibuilder.send({\n        topic: 'actvDestContrlMan',\n        payload: { actvDesactv: estado }\n        });\n    } else {\n        localStorage.setItem(STORAGE_KEY3, input.checked ? '1' : '0');\n        localStorage.setItem(STORAGE_KEY4, input.checked ? '1' : '0');\n        uibuilder.send({\n                topic: 'sverCssCtrlMan',\n                estadoCss2: {inptChe2: input.checked ? '1' : '0'}\n                });\n        /* Convierte el booleano estadoLocal en número lógico: 1 si true, 0 si false */\n        estado = estadoLocal ? 1 : 0;\n        // Enviar al servidor (Node-RED). Uso explícito de topic + payload\n        uibuilder.send({\n        topic: 'actvDestContrlMan',\n        payload: { actvDesactv: estado }\n        });\n    }\n\n  }\n  \n  /* Asocia el handler clickBoton al evento 'change' del input */\n  input.addEventListener('change', clickBoton);\n}\n\n/* ======================================\n   BLOQUE 2 - ON-OF: alterna automaticamente 0/1 y envía\n   ====================================== */\n\n/* Selecciona los elementos del documento que tengan las clases \"micheckbox\" y \"captura\".\n   Esperamos que <input type=\"checkbox\" class=\"micheckbox\"> y <input type=\"text\" class=\"captura\"> existan en el DOM\n   (por ejemplo el script está incluido al final del body). */\n\n   const inputCheckbox = document.querySelector('.micheckbox');\n   const inputNumero = document.querySelector('.captura');\n   var controlObj2 = null;\n   \n   // bloque que conserva los estilos de los eventos al actualizar el navegador y cerrar sesion\n   const STORAGE_KEY1 = 'autToggle_checked_v1';\n   const STORAGE_KEY2 = 'autToggle_checked_v2';\n   var saved = localStorage.getItem(STORAGE_KEY1);\n   var activar = localStorage.getItem(STORAGE_KEY2);\n   \n    inputCheckbox.checked = (saved === '1');\n    activar = (activar === '1');\n    uibuilder.send({\n                topic: 'sverCssCtrlAut',\n                request1: saved\n                });\n\n   function activarControl(e) {\n   /* Prevenir comportamiento por defecto si existiera (por seguridad; normalmente change no tiene un \"default\" visible).*/\n    if (e && typeof e.preventDefault === 'function') {\n      e.preventDefault();\n    }  \n    activar = !activar;\n\n    if (activar === true){\n        var numIngresado = inputNumero.value;\n        if (numIngresado !== \"\"){\n             inputNumero.value = \"\"; \n                localStorage.setItem(STORAGE_KEY1, inputCheckbox.checked ? '1' : '0');\n                localStorage.setItem(STORAGE_KEY2, inputCheckbox.checked ? '1' : '0');\n                // Enviar al servidor (Node-RED). Uso explícito de topic + payload\n                uibuilder.send({\n                topic: 'sverCssCtrlAut',\n                estadoCss: {inptChe: inputCheckbox.checked ? '1' : '0'}\n                });\n                // Construir el objeto que quieres enviar\n                controlObj2 = {\n                enableDisable: 1,\n                target: numIngresado.trim()\n                };\n                // Enviar al servidor (Node-RED). Uso explícito de topic + payload\n                uibuilder.send({\n                topic: 'actvDestContrlAut',\n                payload: controlObj2\n                });\n        } else {\n              alert(\"Ingrese datos....\");\n              if (inputCheckbox.checked === true){\n                 inputCheckbox.checked = false;\n              }\n              activar = !activar;\n        }     \n    } else { \n                localStorage.setItem(STORAGE_KEY1, inputCheckbox.checked ? '1' : '0');\n                localStorage.setItem(STORAGE_KEY2, inputCheckbox.checked ? '1' : '0');\n                uibuilder.send({\n                topic: 'sverCssCtrlAut',\n                estadoCss: {inptChe: inputCheckbox.checked ? '1' : '0'}\n                });\n                controlObj2 = {\n                enableDisable: 0,\n                target: null\n                };\n                // Enviar al servidor (Node-RED). Uso explícito de topic + payload\n                uibuilder.send({\n                topic: 'actvDestContrlAut',\n                payload: controlObj2\n                });\n    }    \n  }\n\n/* Asocia el handler activarControl al evento 'change' del input */\n   inputCheckbox.addEventListener('change', activarControl);\n\n/* =================================================\n   BLOQUE 3 - RECEPCIÓN: polling cada 3 segundos \n   ================================================= */\n\n// Código ejecutado en el navegador por la página servida por uibuilder\n\n/* Funcion anonima autoinvocada (IIFE):\n   (function () {\n   BLOQUE DE CODIGO.....\n   })();\n   Se define y se ejecuta inmediatamente. Muy usada para \n   crear ambitos locales y evitar contaminar el ambito global.\n   En este caso no necesitamos de su implementacion*/\n\n  uibuilder.onChange('msg', (msg) => {\n\n    /*BLOQUE 3.- callback cuando llega un mensaje desde Node-RED (uibuilder)\n      msg.payload es el objeto que enviaste desde el Function en Node-RED*/\n\n    if (msg && msg.payload !== undefined){\n        const p = (msg && msg.payload) ? msg.payload : {};\n        // Protecciones simples y asignaciones a la UI\n        document.querySelector(\".tem\").textContent = (p.temperature !== undefined) ? p.temperature : '—';\n        document.querySelector(\".lum\").textContent = (p.luminosity !== undefined)  ? p.luminosity  : '—';\n        document.querySelector(\".hums\").textContent = (p.soilHumidity !== undefined) ? p.soilHumidity : '—';\n        document.querySelector(\".huma\").textContent = (p.ambientHumidity !== undefined) ? p.ambientHumidity : '—';\n    }\n\n    /*BLOQUE 2.- persistencia de datos al presionar F5, cierre de sesion \n      o al iniciar sesion en otro navegador distinto al que frecuentemente se usa (Google Chrome)*/ \n\n    if (msg && msg.updatecss !== undefined){  \n          saved = msg.updatecss;\n          activar = msg.updatecss;\n          inputCheckbox.checked = (saved === '1');\n          activar = (activar === '1');\n          localStorage.setItem(STORAGE_KEY1, inputCheckbox.checked ? '1' : '0');\n          localStorage.setItem(STORAGE_KEY2, inputCheckbox.checked ? '1' : '0');\n    } \n\n    /*BLOQUE 1.- persistencia de datos al presionar F5, cierre de sesion\n      o al iniciar sesion en otro navegador distinto al que frecuentemente se usa (Google Chrome)*/\n\n    if (msg && msg.updatecss2 !== undefined){\n          savedCtlMan = msg.updatecss2;\n          estadoLocal = msg.updatecss2;\n          input.checked = (savedCtlMan === '1');\n          estadoLocal = (estadoLocal === '1');\n          localStorage.setItem(STORAGE_KEY3, input.checked ? '1' : '0');\n          localStorage.setItem(STORAGE_KEY4, input.checked ? '1' : '0');\n    }\n  });\n\n  window.addEventListener('beforeunload', function () {\n    localStorage.setItem(STORAGE_KEY3, input.checked ? '1' : '0');\n    localStorage.setItem(STORAGE_KEY4, input.checked ? '1' : '0');\n    localStorage.setItem(STORAGE_KEY1, inputCheckbox.checked ? '1' : '0');\n    localStorage.setItem(STORAGE_KEY2, inputCheckbox.checked ? '1' : '0');\n  });\n\n  /* =================================================\n   BLOQUE 4 -CONTROL DE ACCESO autenticacion de cliente\n   inicio de sesion login \n   ================================================= */\n/*(function(){\n  // 1) Solo actuamos si la ruta está en /ui1\n  if (!window.location.pathname.startsWith(\"/ui1\")) {\n    return; // no hacemos nada en /validador ni /logout ni otras rutas\n  }\n\n  // 2) Leemos la cookie 'auth'\n  var cookies = document.cookie.split(\";\").map(c => c.trim());\n  var auth = cookies.find(c => c.indexOf(\"auth=\") === 0);\n\n  // 3) Si no existe auth=1, redirigimos al login PHP\n  if (!auth || auth.split(\"=\")[1] !== \"1\") {\n    window.top.location.href = \"https://datagauge.kesug.com/cerrar_sesion.php\";\n  }\n})();*/\n`;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 290,
+        "y": 1940,
+        "wires": [
+            [
+                "a80e8174357a7920"
+            ]
+        ]
+    },
+    {
+        "id": "a80e8174357a7920",
+        "type": "uib-save",
+        "z": "30bfffe14836de0f",
+        "url": "ui1",
+        "uibId": "9ba114eae656b5fa",
+        "folder": "src",
+        "fname": "index.js",
+        "createFolder": false,
+        "reload": false,
+        "usePageName": false,
+        "encoding": "utf8",
+        "mode": 438,
+        "name": "script",
+        "topic": "",
+        "x": 430,
+        "y": 1940,
+        "wires": []
+    },
+    {
+        "id": "8b0b5c4bec3a82d4",
+        "type": "function",
+        "z": "30bfffe14836de0f",
+        "name": "actvDestContrlMan",
+        "func": "// actvDestContrlMan - recibe solo mensajes con el topic correspondiente\nif (msg.topic !== 'actvDestContrlMan') {\n  return null;\n}\n// Node-RED Function (recibe mensajes provenientes de uibuilder)\n// El mensaje enviado desde el cliente tiene la forma { topic: 'clientControl', payload: { enableDisable: ..., target: ... } }\n\nconst incoming = msg.payload;     // payload recibido\n\n// Extraer propiedades\nconst actvDesactv = incoming.actvDesactv;\n\n// Guardar en flow context como objeto\nflow.set('control2', { actvDesactv });\n\nnode.warn(\"activacion ctrlMan:\" + JSON.stringify(incoming));\nreturn null;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 790,
+        "y": 1780,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3f14a986c1b3e9f5",
+        "type": "function",
+        "z": "30bfffe14836de0f",
+        "name": "envioDatosWeb",
+        "func": "// Function node: preparar msg.payload y enviarlo al uibuilder\n// Lee valores del flow context (si no existen, pone 0 o valores por defecto)\nconst temperature = flow.get(\"temp\") ?? 0;\nconst luminosity  = flow.get(\"luz\") ?? 0;\nconst soilHumidity = flow.get(\"hum_suelo\") ?? 0;\nconst ambientHumidity = flow.get(\"hum_ambiente\") ?? 0;\n\n// Construir el objeto que enviaremos al cliente\nmsg.payload = {\n  temperature: temperature,       // e.g. 23.4\n  luminosity: luminosity,         // e.g. 1200\n  soilHumidity: soilHumidity,     // e.g. 45\n  ambientHumidity: ambientHumidity// e.g. 60\n};\n\n// Opcional: un topic para identificar el mensaje en el cliente\n// msg.topic = \"sensors_latest\";\n\n// (Opcional) cabeceras si usaras HTTP — no hacen falta para uibuilder\n// msg.headers = { 'Content-Type': 'application/json' };\n\n// Devolver el msg para que pase al nodo uibuilder\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 320,
+        "y": 1640,
+        "wires": [
+            [
+                "9ba114eae656b5fa"
+            ]
+        ]
+    },
+    {
+        "id": "451454b6737b6899",
+        "type": "comment",
+        "z": "30bfffe14836de0f",
+        "name": "SIMULA DATOS DE SENSORES  Y LOS MUESTRA EN WIDGETS DEL DASHBOARD PERSONALIZADO (HTML, CSS) Y JS)",
+        "info": "",
+        "x": 440,
+        "y": 1340,
+        "wires": []
+    },
+    {
+        "id": "7c1cbed1f3b03146",
+        "type": "inject",
+        "z": "30bfffe14836de0f",
+        "name": "TEMPERATURA",
+        "props": [
+            {
+                "p": "topic",
+                "v": "$round($random()*100, 2)",
+                "vt": "jsonata"
+            }
+        ],
+        "repeat": "3",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 130,
+        "y": 1400,
+        "wires": [
+            [
+                "4ea141a2d560e27d"
+            ]
+        ]
+    },
+    {
+        "id": "4ea141a2d560e27d",
+        "type": "function",
+        "z": "30bfffe14836de0f",
+        "name": "function 23",
+        "func": "// guardar el valor en contexto de flujo\nflow.set('temp', msg.topic);\nreturn null;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 330,
+        "y": 1400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4f41c3a8d704d2e4",
+        "type": "function",
+        "z": "30bfffe14836de0f",
+        "name": "function 24",
+        "func": "// guardar el valor en contexto de flujo\nflow.set('luz', msg.payload);\nreturn null;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 330,
+        "y": 1460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4a2a11c0e7721d22",
+        "type": "inject",
+        "z": "30bfffe14836de0f",
+        "name": "LUMINOSIDAD",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "3",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "$round($random()*100, 2)",
+        "payloadType": "jsonata",
+        "x": 130,
+        "y": 1460,
+        "wires": [
+            [
+                "4f41c3a8d704d2e4"
+            ]
+        ]
+    },
+    {
+        "id": "8c07d7f314dc588b",
+        "type": "inject",
+        "z": "30bfffe14836de0f",
+        "name": "H_SUELO",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "3",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "$round($random()*100, 2)",
+        "payloadType": "jsonata",
+        "x": 110,
+        "y": 1520,
+        "wires": [
+            [
+                "129adfe21461d6ad"
+            ]
+        ]
+    },
+    {
+        "id": "129adfe21461d6ad",
+        "type": "function",
+        "z": "30bfffe14836de0f",
+        "name": "function 25",
+        "func": "// guardar el valor en contexto de flujo\nflow.set('hum_suelo', msg.payload);\nreturn null;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 290,
+        "y": 1520,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3b535a037a27e99f",
+        "type": "inject",
+        "z": "30bfffe14836de0f",
+        "name": "H_AMBIENTE",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "3",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "$round($random()*100, 2)",
+        "payloadType": "jsonata",
+        "x": 120,
+        "y": 1580,
+        "wires": [
+            [
+                "b9eba76728e27813"
+            ]
+        ]
+    },
+    {
+        "id": "b9eba76728e27813",
+        "type": "function",
+        "z": "30bfffe14836de0f",
+        "name": "function 26",
+        "func": "// guardar el valor en contexto de flujo\nflow.set('hum_ambiente', msg.payload);\nreturn null;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 310,
+        "y": 1580,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f18c5f5ea5d7ac08",
+        "type": "function",
+        "z": "30bfffe14836de0f",
+        "name": "actvDestContrlAut",
+        "func": "// actvDestContrlAut - recibe mensajes solo si topic coincide\nif (msg.topic !== 'actvDestContrlAut') {\n  // ignorar mensaje que no es para este nodo\n  return null;\n}\n// Node-RED Function (recibe mensajes provenientes de uibuilder)\n// El mensaje enviado desde el cliente tiene la forma { topic: 'clientControl', payload: { enableDisable: ..., target: ... } }\n\nconst incoming = msg.payload;     // payload recibido\n\n// Extraer propiedades\nconst enableDisable = incoming.enableDisable;\nconst target = incoming.target;\n\n// Guardar en flow context como objeto\nflow.set('control1', { enableDisable, target });\n\nnode.warn(\"activacion ctrlAut:\" + JSON.stringify(incoming));\nreturn null;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 790,
+        "y": 1720,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "472c64e08748eeb4",
+        "type": "inject",
+        "z": "30bfffe14836de0f",
+        "name": "monitoreo",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "3",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 110,
+        "y": 1640,
+        "wires": [
+            [
+                "3f14a986c1b3e9f5",
+                "42ebbb9a88b42da2",
+                "477481c1ef032728"
+            ]
+        ]
+    },
+    {
+        "id": "42ebbb9a88b42da2",
+        "type": "function",
+        "z": "30bfffe14836de0f",
+        "name": "contrlAut",
+        "func": "if (flow.get('control1').enableDisable === 1 && flow.get('control1').target !== null){\n    var datoEnviado = flow.get('temp') <= flow.get('control1').target ? 1 : 0;\n    var ultimoDatoEnviado = flow.get('ultimoDatoEnviado');\n    if (ultimoDatoEnviado === undefined){\n        ultimoDatoEnviado = null;\n    }\n    if (datoEnviado !== ultimoDatoEnviado){\n        var datoParaEnviar = datoEnviado; \n        node.warn(\"CtrlAut:\" + JSON.stringify(datoParaEnviar));\n        flow.set('ultimoDatoEnviado', datoEnviado);\n    }\n    flow.set('ultimoDatoDetener', undefined);\n}else{\n    var datoEnviadoDetener = 0;\n    var ultimoDatoDetener = flow.get('ultimoDatoDetener');\n    if (ultimoDatoDetener === undefined) {\n        ultimoDatoDetener = null;\n    }\n    if (datoEnviadoDetener !== ultimoDatoDetener) {\n        datoParaEnviar = datoEnviadoDetener;\n        node.warn(\"CtrlAut:\" + JSON.stringify(datoParaEnviar));\n        flow.set('ultimoDatoDetener', datoEnviadoDetener);\n    }\n    flow.set('ultimoDatoEnviado', undefined);\n}\nreturn null;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 320,
+        "y": 1700,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "477481c1ef032728",
+        "type": "function",
+        "z": "30bfffe14836de0f",
+        "name": "contrlMan",
+        "func": "if (flow.get('control2').actvDesactv === 1 ){\n    //node.warn(\"Control actvDesactv:\" + JSON.stringify(flow.get('control2').actvDesactv));\n    var activar = 1;\n    var antesDeActv = flow.get('antesDeActv');\n    if (antesDeActv === undefined){\n        antesDeActv = null;\n    }\n    if (activar !== antesDeActv){\n        var enviarActvDesac = activar; \n        node.warn(\"CtrlMan:\" + JSON.stringify(enviarActvDesac));\n        flow.set('antesDeActv', activar);\n    }\n    flow.set('antesDeDesactv', undefined);\n}else{\n    var desactivar = 0;\n    var antesDeDesactv = flow.get('antesDeDesactv');\n    if (antesDeDesactv === undefined) {\n        antesDeDesactv = null;\n    }\n    if (desactivar !== antesDeDesactv) {\n        enviarActvDesac = desactivar;\n        node.warn(\"CtrlMan:\" + JSON.stringify(enviarActvDesac));\n        flow.set('antesDeDesactv', desactivar);\n    }\n    flow.set('antesDeActv', undefined);\n}\nreturn null;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 320,
+        "y": 1760,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ace7866de4ec8c39",
+        "type": "function",
+        "z": "30bfffe14836de0f",
+        "name": "sverCssCtrlAut",
+        "func": "// serverCss - procesa solo mensajes con topic 'serverCss'\nif (msg.topic !== 'sverCssCtrlAut') {\n  return null;\n}\n\n// claves en flow para persistencia\nconst FLAG_KEY = 'serverCss_flag_v1';\nconst REQ_KEY = 'serverCss_req_v1';\nconst EST_KEY = 'serverCss_est_v1';\n\n// --- leer flag (persistente) ---\nlet flag = flow.get(FLAG_KEY);\nif (flag === undefined) flag = 0; // 0 = sin iniciar, 1 = primer paso, 2 = segundo paso\n\n// --- leer request1 persistido (si existe) ---\nlet persistedRequest = flow.get(REQ_KEY); // puede ser undefined, '0' o '1'\n\n// Si el mensaje trae request1 explícito y no es undefined, guardarlo (solo entonces)\nif (msg.hasOwnProperty('request1') && msg.request1 !== undefined) {\n  // Guardar exactamente lo que viene (se asume '0' o '1')\n  if (msg.request1 === '0' || msg.request1 === '1') {\n    flow.set(REQ_KEY, msg.request1);\n    persistedRequest = msg.request1;\n  }\n  // si viene otro valor, no sobrescribimos persistedRequest\n}\n\n// --- leer estadoCss persistido (si existe) ---\nlet persistedEstado = flow.get(EST_KEY); // puede ser undefined o { inptChe: '0'|'1' }\n\n// Si el mensaje trae estadoCss con propiedad inptChe válida, guardarlo (solo entonces)\nif (msg.hasOwnProperty('estadoCss') && msg.estadoCss && msg.estadoCss.hasOwnProperty('inptChe')) {\n  // Guardar exactamente lo que viene; normalizamos a '1' o '0' según el valor:\n  const v = msg.estadoCss.inptChe === '1' ? '1' : '0';\n  flow.set(EST_KEY, { inptChe: v });\n  persistedEstado = { inptChe: v };\n}\n\n// ----------------- Lógica original (usando valores persistidos) -----------------\n\n// 1) Si request1 === '0' y no hay estadoCss persistido => activar flag = 1 y no retornar nada\nif ((persistedRequest === '0' && persistedEstado.inptChe === '0') || (persistedRequest === '1' && persistedEstado.inptChe === '0')) {\n  flag = 1;\n  flow.set(FLAG_KEY, flag);\n  msg.updatecss = persistedEstado.inptChe;\n  return msg;\n}\n\n// 2) Si la bandera está en 1 => moverla a 2 y no retornar nada\nif (flag === 1) {\n  flag = 2;\n  flow.set(FLAG_KEY, flag);\n  return null;\n}\n\n// 3) Si request1 (persistido) es '1' => no retornamos\nif (persistedRequest === '1') {\n  return null;\n} else {\n  // 4) En cualquier otro caso devolvemos updatecss con el valor persistido en estadoCss.inptChe\n  //return { updatecss: persistedEstado && persistedEstado.inptChe };\n  msg.updatecss = persistedEstado.inptChe;\n  return msg; \n}\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 780,
+        "y": 1640,
+        "wires": [
+            [
+                "9ba114eae656b5fa"
+            ]
+        ]
+    },
+    {
+        "id": "9b63863577463dc1",
+        "type": "function",
+        "z": "30bfffe14836de0f",
+        "name": "sverCssCtrlMan",
+        "func": "// serverCss - procesa solo mensajes con topic 'serverCss'\nif (msg.topic !== 'sverCssCtrlMan') {\n  return null;\n}\n\n// claves en flow para persistencia\nconst FLAG_KEY2 = 'serverCss_flag_v2';\nconst REQ_KEY2 = 'serverCss_req_v2';\nconst EST_KEY2 = 'serverCss_est_v2';\n\n// --- leer flag (persistente) ---\nlet flag = flow.get(FLAG_KEY2);\nif (flag === undefined) flag = 0; // 0 = sin iniciar, 1 = primer paso, 2 = segundo paso\n\n// --- leer request1 persistido (si existe) ---\nlet persistedRequest = flow.get(REQ_KEY2); // puede ser undefined, '0' o '1'\n\n// Si el mensaje trae request1 explícito y no es undefined, guardarlo (solo entonces)\nif (msg.hasOwnProperty('request2') && msg.request2 !== undefined) {\n  // Guardar exactamente lo que viene (se asume '0' o '1')\n  if (msg.request2 === '0' || msg.request2 === '1') {\n    flow.set(REQ_KEY2, msg.request2);\n    persistedRequest = msg.request2;\n  }\n  // si viene otro valor, no sobrescribimos persistedRequest\n}\n\n// --- leer estadoCss persistido (si existe) ---\nlet persistedEstado = flow.get(EST_KEY2); // puede ser undefined o { inptChe: '0'|'1' }\n\n// Si el mensaje trae estadoCss con propiedad inptChe válida, guardarlo (solo entonces)\nif (msg.hasOwnProperty('estadoCss2') && msg.estadoCss2 && msg.estadoCss2.hasOwnProperty('inptChe2')) {\n  // Guardar exactamente lo que viene; normalizamos a '1' o '0' según el valor:\n  const v = msg.estadoCss2.inptChe2 === '1' ? '1' : '0';\n  flow.set(EST_KEY2, { inptChe2: v });\n  persistedEstado = { inptChe2: v };\n}\n\n// ----------------- Lógica original (usando valores persistidos) -----------------\n\n// 1) Si request1 === '0' y no hay estadoCss persistido => activar flag = 1 y no retornar nada\nif ((persistedRequest === '0' && persistedEstado.inptChe2 === '0') || (persistedRequest === '1' && persistedEstado.inptChe2 === '0')) {\n  flag = 1;\n  flow.set(FLAG_KEY2, flag);\n  msg.updatecss2 = persistedEstado.inptChe2;\n  return msg;\n}\n\n// 2) Si la bandera está en 1 => moverla a 2 y no retornar nada\nif (flag === 1) {\n  flag = 2;\n  flow.set(FLAG_KEY2, flag);\n  return null;\n}\n\n// 3) Si request1 (persistido) es '1' => no retornamos\nif (persistedRequest === '1') {\n  return null;\n} else {\n  // 4) En cualquier otro caso devolvemos updatecss con el valor persistido en estadoCss.inptChe\n  //return { updatecss: persistedEstado && persistedEstado.inptChe };\n  msg.updatecss2 = persistedEstado.inptChe2;\n  return msg; \n}\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 780,
+        "y": 1540,
+        "wires": [
+            [
+                "9ba114eae656b5fa"
+            ]
+        ]
+    },
+    {
+        "id": "9ba114eae656b5fa",
+        "type": "uibuilder",
+        "z": "30bfffe14836de0f",
+        "name": "WEB SERVER",
+        "topic": "",
+        "url": "ui1",
+        "okToGo": true,
+        "fwdInMessages": false,
+        "allowScripts": false,
+        "allowStyles": false,
+        "copyIndex": true,
+        "templateFolder": "blank",
+        "extTemplate": "",
+        "showfolder": false,
+        "reload": false,
+        "sourceFolder": "src",
+        "deployedVersion": "7.4.3",
+        "showMsgUib": false,
+        "title": "",
+        "descr": "",
+        "editurl": "vscode://vscode-remote/ssh-remote+node-red-bh0b.onrender.com/opt/render/.node-red/uibuilder/ui1/?windowId=_blank",
+        "x": 540,
+        "y": 1700,
+        "wires": [
+            [
+                "f18c5f5ea5d7ac08",
+                "8b0b5c4bec3a82d4",
+                "ace7866de4ec8c39",
+                "9b63863577463dc1"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "1c97df7f36d5f322",
+        "type": "ui_template",
+        "z": "3c32cf9f885b3815",
+        "group": "484a932f282fa153",
+        "name": "",
+        "order": 1,
+        "width": 6,
+        "height": 2,
+        "format": "<div ng-bind-html=\"msg.payload\"></div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 120,
+        "y": 80,
+        "wires": [
+            []
+        ]
+    }
+]
