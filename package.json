@@ -5,7 +5,7 @@
   "main": "node_modules/node-red/red.js",
   "scripts": {
     "_comentario": "Usar: node node_modules/node-red/red.js -p $PORT como valor de start en caso que settings.js este en la raiz (main) del repositorio", 
-    "start": "node node_modules/node-red/red.js --userDir ./ --settings ./.node-red/settings.js -p $PORT"
+    "start": "PORT=${PORT:-3000} && node node_modules/node-red/red.js --userDir ./ --settings ./.node-red/settings.js -p $PORT"
   },
   "dependencies": {
     "node-red": "^4.0.9",
