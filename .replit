@@ -1,2 +1,2 @@
-run = "npm start"
+run = "PORT=3000 npm start"
 language = "nodejs"
